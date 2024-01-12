@@ -1,0 +1,27 @@
+@import '../css/Fonts.css';
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Logokreta {
+    max-height: 150px;
+    width: auto;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin: 0 50px;
+    font-family: 'Mont-Regular', sans-serif;
+}
