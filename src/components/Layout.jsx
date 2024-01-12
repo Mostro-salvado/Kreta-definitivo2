@@ -1,8 +1,18 @@
 import "../assets/css/Layout.css"
+import Header from "../components/Header"
+import Footer from "../components/Footer"
 
-export default function Layout() {
+
+
+export default function Layout(props) {
+  const {children}=props
   return (
-    <div>Layout</div>
+    <>
+      <Header></Header>
+        {children}
+      <Footer></Footer>
+
+    </>
   )
 }
 

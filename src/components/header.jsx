@@ -2,6 +2,13 @@ import "../assets/css/Header.css"
 
 export default function Header() {
     return (
-        <div>Header</div>
+        <nav class="nav">
+            <ul>
+                <li>Home</li>
+                <li>Servicios</li>
+                <li>Kreta</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
     )
 }
