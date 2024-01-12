@@ -1,7 +1,8 @@
-import React from 'react'
+import "../assets/css/Layout.css"
 
-export default function layout() {
+export default function Layout() {
   return (
-    <div>layout</div>
+    <div>Layout</div>
   )
 }
+

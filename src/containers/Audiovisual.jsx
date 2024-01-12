@@ -1,4 +1,4 @@
-import React from 'react'
+import "../assets/css/Audiovisual.css"
 
 export default function Audiovisual() {
   return (

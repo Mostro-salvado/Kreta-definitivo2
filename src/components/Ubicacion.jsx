@@ -1,4 +1,4 @@
-import React from 'react'
+import "../assets/css/Ubicacion.css"
 
 export default function Ubicacion() {
     return (

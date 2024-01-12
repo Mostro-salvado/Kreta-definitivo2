@@ -1,4 +1,4 @@
-import React from 'react'
+import "../assets/css/Formulario.css"
 
 export default function Formulario() {
     return (

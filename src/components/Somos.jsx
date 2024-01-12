@@ -1,7 +1,8 @@
-import React from 'react'
+import "../assets/css/Somos.css"
 
-export default function somos() {
+export default function Somos() {
     return (
-        <div>somos</div>
+        <div>Somos</div>
     )
 }
+

@@ -1,4 +1,4 @@
-import React from 'react'
+import "../assets/css/FotografiaHome.css"
 
 export default function FotografiaHome() {
   return (
