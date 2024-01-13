@@ -1,7 +1,7 @@
 @import '../css/Fonts.css';
 
 
-.container {
+.header .container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -23,5 +23,6 @@
 .nav-link {
     text-decoration: none;
     margin: 0 50px;
-    font-family: 'Mont-Regular', sans-serif;
+    font-family: 'Mont-Black', sans-serif;
+    color: #31A28C;
 }

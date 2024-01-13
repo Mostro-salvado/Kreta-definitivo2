@@ -1,5 +1,10 @@
 @import '../css/Fonts.css';
 
+.footer .container{
+    background-color: #9484FF;
+}
+
 p{
     font-family: 'Mont-Light', sans-serif;
+    text-align: center;
 }
