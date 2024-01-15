@@ -1,4 +1,21 @@
-.boton-flotante{
-    background-color: red;
-    align-items: end;
+
+.boton-flotante {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    width: 40px; 
+    height: 40px; 
+    background-image: url("../statics/whatsapp.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.boton-flotante:hover {
+    transform: scale(1.1);
 }
