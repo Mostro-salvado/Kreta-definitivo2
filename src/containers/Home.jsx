@@ -2,6 +2,8 @@ import React from 'react';
 import "../assets/css/Home.css";
 import Video from '../components/Video';
 import AudiovisualHome from '../components/AudiovisualHome'
+import FotografiaHome from '../components/FotografiaHome';
+import Llamado from  '../components/Llamado'
 
 export default function Home() {
     const videoId = 'dbcc_1t0in4';
@@ -13,6 +15,12 @@ export default function Home() {
             </div>
             <div className="audiovisual-home">
                 <AudiovisualHome></AudiovisualHome>
+            </div>
+            <div className="audiovisual-home">
+                <FotografiaHome></FotografiaHome>
+            </div>
+            <div className="llamado">
+                <Llamado></Llamado>
             </div>
         </>
     );

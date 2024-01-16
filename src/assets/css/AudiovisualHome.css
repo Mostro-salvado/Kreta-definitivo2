@@ -6,7 +6,7 @@
     justify-content: space-between;
     background-color: #9484FF;
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     border-radius: 15px;
 }
 
@@ -15,40 +15,23 @@
     font-family: 'Mont-Black', sans-serif;
 }
 
-/* Agrega transiciones suaves para una apariencia más agradable */
+.audiovisual h2 {
+    margin: 0 auto; 
+    text-align: center;
+    color: #FFFF;
+}
+
+
 .containerav {
     transition: opacity 0.5s ease;
 }
 
-/* AudiovisualHome.css */
+
 .containerav.visible {
-    display: flex; /* Asegurarse de que el contenedor sea visible */
+    display: flex; 
+    justify-content: center;
 }
 
 
 .blur-in-expand{animation:blur-in-expand 0.9s linear both} @keyframes blur-in-expand{0%{transform:scale(0);filter:blur(12px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
 
-.oculto{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.texto{
-    font-family: 'Mont-Light', sans-serif;
-}
-
-.vermas{
-    text-decoration: none;
-    background-color: #69A3D4;
-    font-size: 20px;
-    color: #FFFFFF;
-    box-shadow: none;
-    text-shadow: none;
-    font-family: 'Mont-Black', sans-serif;
-}
-
-.vermas:hover{
-    background-color: #663287;
-}

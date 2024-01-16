@@ -1,0 +1,25 @@
+.oculto{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.texto{
+    font-family: 'Mont-Light', sans-serif;
+}
+
+.vermas{
+    text-decoration: none;
+    background-color: #69A3D4;
+    font-size: 20px;
+    color: #FFFFFF;
+    box-shadow: none;
+    text-shadow: none;
+    font-family: 'Mont-Black', sans-serif;
+}
+
+.vermas:hover{
+    background-color: #663287;
+}

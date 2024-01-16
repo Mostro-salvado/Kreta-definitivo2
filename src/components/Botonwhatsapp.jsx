@@ -7,6 +7,8 @@ export default function Botonwhatsapp() {
 };
 
     return (
-        <div className="boton-flotante" onClick={handleClick}></div>
+        <>
+            <div className="boton-flotante" onClick={handleClick}></div>
+        </>
 );
 }

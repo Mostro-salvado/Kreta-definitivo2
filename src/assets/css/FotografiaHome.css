@@ -1,0 +1,38 @@
+@import '../css/Fonts.css';
+
+.containerav {
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #9484FF;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+
+.fotografia {
+    padding: 20px;
+    font-family: 'Mont-Black', sans-serif;
+}
+
+.fotografia h2 {
+    margin: 0 auto; 
+    text-align: center;
+    color: #FFFF;
+}
+
+
+.containerav {
+    transition: opacity 0.5s ease;
+}
+
+
+.containerav.visible {
+    display: flex; 
+    justify-content: center;
+}
+
+
+.blur-in-expand{animation:blur-in-expand 0.9s linear both} @keyframes blur-in-expand{0%{transform:scale(0);filter:blur(12px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
+
