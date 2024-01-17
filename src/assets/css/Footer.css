@@ -1,10 +1,29 @@
 @import '../css/Fonts.css';
 
-.footer .container{
+.container{
     background-color: #9484FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 p{
     font-family: 'Mont-Light', sans-serif;
     text-align: center;
+}
+
+.social{
+    display: flex;
+    text-decoration: none;
+}
+
+.social img{
+    display: flex;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.copyright{
+    margin-left: 20px;
 }
