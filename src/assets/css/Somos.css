@@ -1,0 +1,14 @@
+@import '../css/Fonts.css';
+
+.container-somos{
+    background-color: #FFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.titulo{
+    color: #EF5446;
+}

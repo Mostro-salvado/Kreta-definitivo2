@@ -1,0 +1,46 @@
+@import '../css/Fonts.css';
+
+.wraper-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #31A28C;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.somosCard-container{
+    background-color: #31A28C;
+    border-radius: 25px;
+    padding:10px;
+}
+
+.nombre{
+    font-family: 'Mont-Black', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #FFFF;
+}
+
+.imagen{
+    width: 90%;
+    height: auto;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.descripcion{
+    display: flex;
+    font-family: 'Mont-Light', sans-serif;
+    text-align: center;
+    font-size: large;
+    color: #31A28C;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #FFFF;
+    padding: 20px;
+    border-bottom: 30px;
+}

@@ -4,6 +4,7 @@ import Video from '../components/Video';
 import AudiovisualHome from '../components/AudiovisualHome'
 import FotografiaHome from '../components/FotografiaHome';
 import Llamado from  '../components/Llamado'
+import Somos from '../components/Somos'
 
 export default function Home() {
     const videoId = 'dbcc_1t0in4';
@@ -21,6 +22,9 @@ export default function Home() {
             </div>
             <div className="llamado">
                 <Llamado></Llamado>
+            </div>
+            <div className="somos">
+                <Somos></Somos>
             </div>
         </>
     );
