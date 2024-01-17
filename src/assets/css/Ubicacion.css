@@ -1,0 +1,35 @@
+@import '../css/Fonts.css';
+*{
+    margin: 0px;
+}
+
+.ubicacion-wraper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F18269;
+}
+
+.texto-descripcion{
+    margin: 30px;
+    color: #000000;
+}
+
+.titulo-ubicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mont-Black', sans-serif;
+    color: #FFFF;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+.mapa{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+
