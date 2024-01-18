@@ -30,3 +30,10 @@
     margin-top: 20px;
     font-family: 'Mont-Light', sans-serif;
 }
+
+.mensaje-exito{
+    font-size: large;
+    background-color: #FFFF;
+    color:#31A28C ;
+    margin-bottom: 10px;
+}
