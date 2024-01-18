@@ -6,9 +6,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
 }
 
 .titulo{
     color: #EF5446;
+    margin-top: 20px;
+    font-size: x-large;
 }

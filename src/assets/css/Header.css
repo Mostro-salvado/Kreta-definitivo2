@@ -2,15 +2,23 @@
 
 
 .header .container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    background-color: #FFFF;
+    padding: 5px;
 
 }
 
 .Logokreta {
-    max-height: 150px;
+    max-height: 100px;
     width: auto;
 }
 
