@@ -1,11 +1,11 @@
 @import '../css/Fonts.css';
 
-.container{
+.container-footer{
     background-color: #9484FF;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: row; 
 }
 
 p{

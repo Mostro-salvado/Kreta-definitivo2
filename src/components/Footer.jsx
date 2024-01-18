@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <>
             <div className="footer">
-                <div className="container">
+                <div className="container-footer">
                     <div className="social">
                         <Link to="https://www.linkedin.com/company/kreta-dm/"><img src={Linkedin} className='linkedin' alt="Linkedin"/></Link>
                         <Link to="https://www.instagram.com/kreta_dm?igsh=ZjI0YjNmOWM5OA%3D%3D"><img src={Instagram} className='instagram' alt="Instagram"/></Link>
