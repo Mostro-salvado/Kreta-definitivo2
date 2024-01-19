@@ -1,7 +1,18 @@
 import "../assets/css/Fotografia.css"
+import DetalleFotografia from "../components/DetalleFotografia"
+import DataFotografia from "../DataFotografia"
 
 export default function Fotografia() {
+
+    const dataFotografiaList= DataFotografia.map(data => {
+        return <DetalleFotografia titulo={data.titulo} fotografia={data.fotografia} texto={data.texto}/>
+    })
+
     return (
-        <div>Fotografia</div>
+        <>
+            <div className="container-detalle-fotografia">
+                {dataFotografiaList}
+            </div>
+        </>
     )
 }

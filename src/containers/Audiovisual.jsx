@@ -1,7 +1,18 @@
 import "../assets/css/Audiovisual.css"
+import DetalleAudiovisual from "../components/DetalleAudiovisual"
+import DataAudiovisual from "../DataAudiovisual"
 
 export default function Audiovisual() {
+
+  const dataAudiovisualList= DataAudiovisual.map(data => {
+    return <DetalleAudiovisual titulo={data.titulo} video={data.video} texto={data.texto}/>
+})
+
   return (
-    <div>Audiovisual</div>
+    <>
+      <div className="container-detalle-fotografia">
+        {dataAudiovisualList}
+      </div>
+    </>
   )
 }
