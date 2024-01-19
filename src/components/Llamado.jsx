@@ -6,7 +6,7 @@ export default function llamado() {
         <>
             <div className="container-llamado">
                 <p className="texto-llamado">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel sapiente eveniet enim aliquid illo, non laboriosam harum, vitae at reiciendis et eos? Accusantium, quam. Voluptates sit dignissimos excepturi nostrum sequi?
+                Somos una empresa dedicada a la producción, gestión y coordinación de contenidos digitales. Nos especializamos en la comunicación audiovisual con más de una década de experiencia en el mercado, trabajando juntos.
                 </p>
                 <Link to='/formulario' className="Link-Contactanos">Contactanos</Link>
             </div>

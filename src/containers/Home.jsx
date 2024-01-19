@@ -16,14 +16,14 @@ export default function Home() {
             <div className="video-container">
                 <Video videoId={videoId} />
             </div>
+            <div className="llamado">
+                <Llamado></Llamado>
+            </div>
             <div className="audiovisual-home">
                 <AudiovisualHome></AudiovisualHome>
             </div>
             <div className="audiovisual-home">
                 <FotografiaHome></FotografiaHome>
-            </div>
-            <div className="llamado">
-                <Llamado></Llamado>
             </div>
             <div className="somos">
                 <Somos></Somos>

@@ -7,7 +7,7 @@ export default function ShowFotografia() {
         <>
             <div className="oculto">
                 <p className="texto">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat temporibus inventore molestiae esse itaque. Maxime tempore, temporibus dolorum voluptatum, voluptatibus magnam sit necessitatibus beatae, eius ea qui fugit ducimus reiciendis.
+                Instucionales, áereas, de producto y publicitarias. Nuestros fotógrafos son todoterreno y están listos para hacer clic en el momento justo. ¡Mirá nuestro portfolio!
                 </p>
                 <Link className="vermas" to="/fotografia">Ver +</Link>
             </div>

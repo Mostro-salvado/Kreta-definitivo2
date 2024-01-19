@@ -6,9 +6,9 @@ export default function ShowAudiovisual() {
     return (
         <>
             <div className="oculto">
-                <p className="texto">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat temporibus inventore molestiae esse itaque. Maxime tempore, temporibus dolorum voluptatum, voluptatibus magnam sit necessitatibus beatae, eius ea qui fugit ducimus reiciendis.
-                </p>
+            <p className="texto">
+                Spots, campañas, coberturas, publicidades y videos institucionales.<br />En Kreta contamos con un equipo audiovisual completo para suplir las necesidades de tu empresa, tu negocio o tu cliente. ¡Mirá nuestro portfolio!
+            </p>
                 <Link className="vermas" to="/audiovisual">Ver +</Link>
             </div>
         </>

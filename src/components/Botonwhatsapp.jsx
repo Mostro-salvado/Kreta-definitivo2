@@ -3,7 +3,7 @@ import "../assets/css/Botonwhatsapp.css";
 
 export default function Botonwhatsapp() {
     const handleClick = () => {
-        window.open("https://wa.me/3416164792?text=Hola", "_blank");
+        window.open("https://wa.me/+5493415598928?text=Hola" , "_blank");
 };
 
     return (

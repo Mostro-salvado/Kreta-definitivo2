@@ -29,6 +29,11 @@
 .submit{
     margin-top: 20px;
     font-family: 'Mont-Light', sans-serif;
+    font-size: large;
+}
+
+.textarea{
+    height: 100px;
 }
 
 .mensaje-exito{

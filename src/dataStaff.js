@@ -1,7 +1,7 @@
-import Caro from '../src/assets/statics/Caro.png'
-import Ariel from '../src/assets/statics/Ariel.png'
-import Pame from '../src/assets/statics/Pame.png'
-import Vito from '../src/assets/statics/Vito.png'
+import Caro from '../src/assets/statics/Caro.jpg'
+import Ariel from '../src/assets/statics/Ariel.jpg'
+import Pame from '../src/assets/statics/Pame.jpg'
+import Vito from '../src/assets/statics/Vito.jpg'
 
 const staff = [
     {
