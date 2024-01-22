@@ -3,7 +3,7 @@ import "../assets/css/DetalleAudiovisual.css"
 
 
 
-export default function DetalleAudiovisual({titulo,video,texto,key}) {
+export default function DetalleAudiovisual({titulo,video,texto}) {
     return (
         <>
             <div className={`container-audiovisual-detalle ${titulo}`}>

@@ -6,53 +6,46 @@
     align-items: center;
 
 }
-.SPOTS{
+.container-audiovisual-detalle.SPOTS{
     background-color: #EF5446;
     font-family: 'Mont-Black', sans-serif;
     color: #FFFF;
     margin-bottom: 20px;
 }
-.SPOTS p{
+.container-audiovisual-detalle.SPOTS p{
     font-family: 'Mont-Black', sans-serif;
     color: #FFFF;
 }
-.INSTITUCIONALES{
+.container-audiovisual-detalle.INSTITUCIONALES{
     background-color: #663287;
     font-family: 'Mont-Black', sans-serif;
     color: #FFFF;
     margin-bottom: 20px;
 }
-.INSTITUCIONALES p{
+.container-audiovisual-detalle.INSTITUCIONALES p{
     font-family: 'Mont-Black', sans-serif;
     color: #FFFF;
 }
-.AÉREAS{
+.container-audiovisual-detalle.AÉREAS{
     background-color: #69A3D4;
     font-family: 'Mont-Black', sans-serif;
     color: #FFFF;
     margin-bottom: 20px;
 }
-.AÉREAS p{
+.container-audiovisual-detalle.AÉREAS p{
     font-family: 'Mont-Black', sans-serif;
     color: #FFFF;
 }
-.COBERTURAS{
+.container-audiovisual-detalle.COBERTURAS{
     background-color: #FCB03E;
     font-family: 'Mont-Black', sans-serif;
     color: #FFFF;
     margin-bottom: 20px;
 }
-.COBERTURAS p{
+.container-audiovisual-detalle.COBERTURAS p{
     font-family: 'Mont-Black', sans-serif;
     color: #FFFF;
 }
-
-
-
-
-
-
-
 
 .video-audiovisual-detalle{
     width: 100%;
