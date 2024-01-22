@@ -1,0 +1,74 @@
+@import '../css/Fonts.css';
+.container-audiovisual-detalle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.SPOTS{
+    background-color: #EF5446;
+    font-family: 'Mont-Black', sans-serif;
+    color: #FFFF;
+    margin-bottom: 20px;
+}
+.SPOTS p{
+    font-family: 'Mont-Black', sans-serif;
+    color: #FFFF;
+}
+.INSTITUCIONALES{
+    background-color: #663287;
+    font-family: 'Mont-Black', sans-serif;
+    color: #FFFF;
+    margin-bottom: 20px;
+}
+.INSTITUCIONALES p{
+    font-family: 'Mont-Black', sans-serif;
+    color: #FFFF;
+}
+.AÉREAS{
+    background-color: #69A3D4;
+    font-family: 'Mont-Black', sans-serif;
+    color: #FFFF;
+    margin-bottom: 20px;
+}
+.AÉREAS p{
+    font-family: 'Mont-Black', sans-serif;
+    color: #FFFF;
+}
+.COBERTURAS{
+    background-color: #FCB03E;
+    font-family: 'Mont-Black', sans-serif;
+    color: #FFFF;
+    margin-bottom: 20px;
+}
+.COBERTURAS p{
+    font-family: 'Mont-Black', sans-serif;
+    color: #FFFF;
+}
+
+
+
+
+
+
+
+
+.video-audiovisual-detalle{
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.texto-audiovisual-detalle{
+    margin: 20px;
+}
+
+.titulo-audiovisual-detalle{
+    margin-top: 20px;
+}

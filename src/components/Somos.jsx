@@ -11,7 +11,7 @@ export default function Somos() {
 
     return (
         <>
-            <div className="container-somos">
+            <div className="container-somos" id="Somos-Kreta">
                 <h1 class="titulo">Somos Kreta</h1>
                 <div class="container-bio">
                     <div class="bio">
