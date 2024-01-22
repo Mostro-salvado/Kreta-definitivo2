@@ -35,3 +35,8 @@
     font-family: 'Mont-Black', sans-serif;
     color: #31A28C;
 }
+
+.logo-link {
+    text-decoration: none; /* Puedes personalizar los estilos según tus necesidades */
+    color: inherit; /* Puedes personalizar los estilos según tus necesidades */
+}
