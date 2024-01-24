@@ -3,12 +3,28 @@ import { Link ,useNavigate } from "react-router-dom";
 import Logo from "../assets/statics/Logo Kreta (colores RGB).svg"
 
 
+
 export default function Header() {
     const Navigate = useNavigate();
 
     const redirectToHome = () => {
         Navigate("/");
+        setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }, 100);
     };
+
+    const redirectToSomos = () => {
+        Navigate("/");
+        setTimeout(() => {
+            const somosElement = document.getElementById("Somos-Kreta");
+            if (somosElement) {
+                somosElement.scrollIntoView({ behavior: "smooth" });
+            }
+            }, 100);
+        };
+
+
     return (
         <>
             <div className="header">
@@ -20,9 +36,10 @@ export default function Header() {
                     onClick={redirectToHome}
                     style={{ cursor: "pointer" }}/>
                     <nav className="nav">
-                        <Link className="nav-link" to="/">Home</Link>
+                        <span className="nav-link" onClick={redirectToHome}>Home</span>
                         <Link className="nav-link" to="/audiovisual">Audiovisual</Link>
                         <Link className="nav-link" to="/fotografia">Fotografía</Link>
+                        <span className="nav-link" onClick={redirectToSomos}>Somos Kreta</span>
                     </nav>
                 </div>
             </div>

@@ -14,6 +14,8 @@
     align-items: center;
     background-color: #FFFF;
     padding: 5px;
+    padding-top: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -39,4 +41,17 @@
 .logo-link {
     text-decoration: none; /* Puedes personalizar los estilos según tus necesidades */
     color: inherit; /* Puedes personalizar los estilos según tus necesidades */
+}
+
+
+/* TABLETS */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 }
