@@ -102,3 +102,25 @@
     }
 
 }
+/* ESCRITORIO */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+    .video-audiovisual-detalle {
+        width: auto;
+        height: 70vh;
+        overflow: hidden;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .titulo-audiovisual-detalle{
+        margin-top: 20px;
+        font-size: 40px;
+    }
+
+}
