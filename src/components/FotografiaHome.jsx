@@ -1,32 +1,41 @@
-import "../assets/css/FotografiaHome.css"
+import "../assets/css/FotografiaHome.css";
 import React, { useEffect, useState } from 'react'; 
 import ShowFotografia from "./ShowFotografia";
 
-
 export default function FotografiaHome() {
   const [isVisible, setIsVisible] = useState(false);
-  const [show,setShow]=useState(false)
-
-  const handleClick = () => {
-    setShow(!show)
-  };
+  const [show, setShow] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      const threshold = 250; 
-      console.log("Scroll Y:", scrollY);
-
-      // Cambiar la visibilidad del contenedor basado en la posición del scroll
+      const threshold = 250;
       setIsVisible(scrollY > threshold);
     };
 
+    const handleResize = () => {
+      const screenWidth = window.innerWidth;
+      if (screenWidth > 992) {
+        setShow(true);
+      }
+    };
+
     window.addEventListener('scroll', handleScroll);
+    window.addEventListener('resize', handleResize);
+
+    handleResize();
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleResize);
     };
-  }, []); 
+  }, []);
+
+  const handleClick = () => {
+    if (window.innerWidth <= 992) {
+      setShow(!show);
+    }
+  };
 
   return (
     <div className={`containerfo ${isVisible ? 'visible blur-in-expand' : ''}`} onClick={handleClick}>
@@ -36,4 +45,4 @@ export default function FotografiaHome() {
       </div>
     </div>
   );
-} 
+}
