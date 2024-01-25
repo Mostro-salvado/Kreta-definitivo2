@@ -96,11 +96,9 @@
         align-items: center;
         border: 2px solid #31A28C;
         border-radius: 30px;
-        margin-left: 5px;
-        margin-right: 5px;
-        margin-bottom: 20px;
-        height: 50vh;
-        margin-top: 40px;
+        margin-bottom: 132px;
+        height: 80vh;
+        margin-top: 60px;
     }
     
     .imagen {
@@ -114,17 +112,18 @@
         display: flex;
         font-family: 'Mont-Light', sans-serif;
         text-align: center;
-        font-size: medium;
+        font-size: x-large;
         color: #31A28C;
         margin-top: 22px;
-        margin-bottom: 70px;
+        margin-bottom: 80px;
         background-color: #FFFF;
         border-bottom: 30px;
         height: 80px;
     }
 
     .somosCard-container{
-        width: 93%;
+        width: 94%;
+        padding:18px;
     }
     
 }

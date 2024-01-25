@@ -32,11 +32,13 @@ export default function AudiovisualHome() {
   }, []); 
 
   return (
-    <div className={`containerav ${isVisible ? 'visible blur-in-expand' : ''}`} onClick={handleClick}>
-      <div className="audiovisual">
-        <h2>Audiovisual</h2>
-        <div>{show && <ShowAudiovisual></ShowAudiovisual>}</div>
+    <>
+      <div className={`containerav ${isVisible ? 'visible blur-in-expand' : ''}`} onClick={handleClick}>
+        <div className="audiovisual">
+          <h2>Audiovisual</h2>
+          <div>{show && <ShowAudiovisual></ShowAudiovisual>}</div>
+        </div>
       </div>
-    </div>
+    </>
   );
 } 

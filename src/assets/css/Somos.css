@@ -47,9 +47,10 @@
     }
     .titulo{
         color: #EF5446;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        font-size:xx-large;
+        margin-top: 5px;
+        margin-bottom: 50px;
+        font-size: xx-large;
         font-family: 'Mont-Black', sans-serif;
     }
+    
 }

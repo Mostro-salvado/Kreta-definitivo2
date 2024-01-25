@@ -57,5 +57,8 @@
         flex-direction: column;
         margin-bottom: 7px;
     }
+    .texto{
+        font-size: large
+    }
 }
 

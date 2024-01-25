@@ -38,7 +38,7 @@
         justify-content:center;
         height: 100vh;
         align-items: center;
-        margin-top: 70px;
+        margin-top: 0px;
     }
     .fotografia-home{
         height: 50%;
@@ -46,7 +46,7 @@
         margin: 10px;
     }
     .audiovisual-home{
-        height: 50%;
+        height: 40%;
         width: 100% !important;
         margin: 10px;
     }

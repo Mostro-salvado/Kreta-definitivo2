@@ -70,7 +70,7 @@
 /* ESCRITORIO */
 @media only screen and (min-width: 992px) and (max-width: 1199px){
     .ubicacion-wraper{
-        margin-top: 50px;
+        margin-top: 0px;
     }
     .texto-descripcion{
         margin: 30px;
