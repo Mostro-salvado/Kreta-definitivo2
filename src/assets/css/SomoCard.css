@@ -32,7 +32,7 @@
     margin-bottom: 10px;
     color: #FFFF;
 }
- 
+
 .imagen{
     width: 95%;
     height: auto;
@@ -46,8 +46,85 @@
     text-align: center;
     font-size:medium;
     color: #31A28C;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
     background-color: #FFFF;
     border-bottom: 30px;
+}
+
+/* TABLETS */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    .wraper-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #31A28C;
+        border-radius: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        height: 84vh;
+        margin-top: 40px;
+    }
+    
+    .imagen {
+        width: 67%;
+        height: auto;
+        margin: 10px;
+        border-radius: 30px;
+    }
+
+    .descripcion {
+        display: flex;
+        font-family: 'Mont-Light', sans-serif;
+        text-align: center;
+        font-size: medium;
+        color: #31A28C;
+        margin-top: 22px;
+        margin-bottom: 20px;
+        background-color: #FFFF;
+        border-bottom: 30px;
+    }
+}
+/* ESCRITORIO */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .wraper-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #31A28C;
+        border-radius: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 20px;
+        height: 50vh;
+        margin-top: 40px;
+    }
+    
+    .imagen {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        border-radius: 30px;
+    }
+
+    .descripcion {
+        display: flex;
+        font-family: 'Mont-Light', sans-serif;
+        text-align: center;
+        font-size: medium;
+        color: #31A28C;
+        margin-top: 22px;
+        margin-bottom: 70px;
+        background-color: #FFFF;
+        border-bottom: 30px;
+        height: 80px;
+    }
+
+    .somosCard-container{
+        width: 93%;
+    }
+    
 }

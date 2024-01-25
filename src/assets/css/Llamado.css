@@ -24,3 +24,55 @@
     width: 150px;
     text-align: center;
 }
+/* TABLETS */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    .container-llamado{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #69A3D4;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .Link-Contactanos{
+        text-decoration: none;
+        background-color: #663287;
+        color: #FFFF;
+        font-family: 'Mont-Black', sans-serif;
+        margin: 20px;
+        border-radius: 15px;
+        width: 197px;
+        height: 40px;
+        text-align: center;
+        font-size: x-large;
+    }
+}
+
+
+
+/* ESCRITORIO */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+    .container-llamado p{
+        font-family: 'Mont-Light', sans-serif;
+        color: #FFFF;
+        margin: 20px;
+        margin-top: 50px;
+        font-size: x-large;
+    }
+    .Link-Contactanos{
+        text-decoration: none;
+        background-color: #663287;
+        color: #FFFF;
+        font-family: 'Mont-Black', sans-serif;
+        margin: 20px;
+        margin-bottom: 50px;
+        border-radius: 15px;
+        width: 300px;
+        height: 40px;
+        text-align: center;
+        font-size: xx-large;
+    }
+}

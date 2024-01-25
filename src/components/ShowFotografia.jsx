@@ -7,7 +7,9 @@ export default function ShowFotografia() {
         <>
             <div className="oculto">
                 <p className="texto">
-                Instucionales, áereas, de producto y publicitarias. Nuestros fotógrafos son todoterreno y están listos para hacer clic en el momento justo. ¡Mirá nuestro portfolio!
+                    Instucionales, áereas, de producto y publicitarias. Nuestros fotógrafos son todoterreno y están listos para hacer clic en el momento justo. ¡Mirá nuestro portfolio! 
+                    <br />
+                    <br />
                 </p>
                 <Link className="vermas" to="/fotografia">Ver +</Link>
             </div>

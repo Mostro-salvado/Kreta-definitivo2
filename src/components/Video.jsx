@@ -1,4 +1,5 @@
 import React from 'react';
+import "../assets/css/video.css"
 
 export default function Video({ videoId }) {
     return (

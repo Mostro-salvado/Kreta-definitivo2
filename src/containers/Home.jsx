@@ -19,11 +19,13 @@ export default function Home() {
             <div className="llamado">
                 <Llamado></Llamado>
             </div>
-            <div className="audiovisual-home">
-                <AudiovisualHome></AudiovisualHome>
-            </div>
-            <div className="audiovisual-home">
-                <FotografiaHome></FotografiaHome>
+            <div className="wraper">
+                <div className="audiovisual-home">
+                    <AudiovisualHome></AudiovisualHome>
+                </div>
+                <div className="fotografia-home">
+                    <FotografiaHome></FotografiaHome>
+                </div>
             </div>
             <div className="somos">
                 <Somos></Somos>

@@ -21,7 +21,7 @@ const staff = [
     },
     {
         nombre:"Vito",
-        descripcion:"Creativo - Director - Dirección de Fotografía",
+        descripcion:"Creativo - Director - Dirección de Fotografía ",
         imagen:Vito,
     },
 ];

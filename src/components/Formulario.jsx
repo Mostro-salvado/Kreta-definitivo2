@@ -30,9 +30,9 @@ export default function Formulario() {
                 {enviadoConExito && <div className="mensaje-exito">¡Mensaje enviado con éxito!</div>}
                 <form ref={form} onSubmit={sendEmail} className="formulario">
                     <label>Nombre</label>
-                    <input type="text" name="user_name" placeholder="Ingresa tu nombre" />
+                    <input className="entrada" type="text" name="user_name" placeholder="Ingresa tu nombre" />
                     <label>Correo</label>
-                    <input type="email" name="user_email" placeholder="Ingresa tu correo electrónico"/>
+                    <input className="entrada" type="email" name="user_email" placeholder="Ingresa tu correo electrónico"/>
                     <label>Mensaje</label>
                     <textarea className="textarea" name="message" placeholder="Escribe tu mensaje aquí" />
                     <input className="submit" type="submit" value="Enviar" />

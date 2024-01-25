@@ -35,3 +35,27 @@
 
 .blur-in-expand{animation:blur-in-expand 0.9s linear both} @keyframes blur-in-expand{0%{transform:scale(0);filter:blur(12px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
 
+/* ESCRITORIO */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+    .wraper.containerav {
+        width: 50%;
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .containerav.visible {
+        display: flex; 
+        justify-content: center;
+    }
+    
+    .wraper.audiovisual {
+        width: 100%;
+    }
+    .containerav {
+        margin-top: 10px;
+    }
+
+} 

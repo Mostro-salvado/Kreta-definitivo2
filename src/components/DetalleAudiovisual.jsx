@@ -1,5 +1,7 @@
 import React from 'react'
 import "../assets/css/DetalleAudiovisual.css"
+import ReactPlayer from 'react-player'
+
 
 
 
@@ -11,9 +13,7 @@ export default function DetalleAudiovisual({titulo,video,texto}) {
                     {titulo}
                 </div>
                 <div className="video-audiovisual-detalle">
-                <video width="750" height="500" controls className="video-audiovisual-detalle" >
-                    <source src={video} type="video/mp4"/>
-                </video>
+                    <ReactPlayer url={video} width="750" height="500" controls light=""/>
                 </div>
                 <div className="texto-audiovisual-detalle">
                     <p>

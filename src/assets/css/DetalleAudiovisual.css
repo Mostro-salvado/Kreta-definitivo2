@@ -47,8 +47,8 @@
     color: #FFFF;
 }
 
-.video-audiovisual-detalle{
-    width: 100%;
+.video-audiovisual-detalle {
+    width: auto;
     height: 50vh;
     overflow: hidden;
     position: relative;
@@ -56,12 +56,49 @@
     padding: 0;
     margin-top: 10px;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .texto-audiovisual-detalle{
     margin: 20px;
 }
 
 .titulo-audiovisual-detalle{
     margin-top: 20px;
+    font-size: x-large;
+}
+
+/* TABLETS */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    
+    .container-audiovisual-detalle.SPOTS{
+        background-color: #EF5446;
+        font-family: 'Mont-Black', sans-serif;
+        color: #FFFF;
+        margin-bottom: 50px;
+        margin-top: 100px;
+    }
+    .container-audiovisual-detalle.INSTITUCIONALES{
+        background-color: #663287;
+        font-family: 'Mont-Black', sans-serif;
+        color: #FFFF;
+        margin-bottom: 50px;
+    }
+    .container-audiovisual-detalle.AÉREAS{
+        background-color: #69A3D4;
+        font-family: 'Mont-Black', sans-serif;
+        color: #FFFF;
+        margin-bottom: 50px;
+    }
+    .container-audiovisual-detalle.COBERTURAS{
+        background-color: #FCB03E;
+        font-family: 'Mont-Black', sans-serif;
+        color: #FFFF;
+        margin-bottom: 50px;
+    }
+    .video-audiovisual-detalle {
+        height: 90vh;
+    }
+
 }

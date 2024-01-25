@@ -14,7 +14,7 @@ export default function SomosCard({nombre,descripcion,imagen}) {
         <>
             <div className="wraper-card">
                 <div className="somosCard-container" onClick={handleClick}>
-                    <img src={imagen} alt="" className="imagen" />
+                    <img src={imagen} alt={nombre} className="imagen" />
                     <div className="nombre">
                         {nombre}
                     </div>

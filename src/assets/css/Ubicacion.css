@@ -14,7 +14,7 @@
 
 .texto-descripcion{
     margin: 30px;
-    color: #000000;
+    color: #FFFF;
 }
 
 .titulo-ubicacion{
@@ -56,4 +56,25 @@
     height: 300px;
 }
 
+/* TABLETS */
+@media only screen and (min-width: 768px) and (max-width: 991px){
 
+    .texto-descripcion{
+        margin: 50px;
+        color: #FFFF;
+    }
+
+}
+
+
+/* ESCRITORIO */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .ubicacion-wraper{
+        margin-top: 50px;
+    }
+    .texto-descripcion{
+        margin: 30px;
+        color: #FFFF;
+        font-size: x-large;
+    }
+}

@@ -18,8 +18,44 @@
     box-shadow: none;
     text-shadow: none;
     font-family: 'Mont-Black', sans-serif;
+    height: auto;
+    width: 100px;
+    text-align: center;
 }
 
 .vermas:hover{
     background-color: #663287;
 }
+
+/* TABLETS */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    .vermas{
+        text-decoration: none;
+        background-color: #69A3D4;
+        font-size: 20px;
+        color: #FFFFFF;
+        box-shadow: none;
+        text-shadow: none;
+        font-family: 'Mont-Black', sans-serif;
+        height: auto;
+        width: 100px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .texto{
+        font-family: 'Mont-Light', sans-serif;
+        margin-top: 10px;
+    }
+}
+/* ESCRITORIO */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .oculto{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 7px;
+    }
+}
+

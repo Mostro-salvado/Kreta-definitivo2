@@ -19,3 +19,26 @@
 .boton-flotante:hover {
     transform: scale(1.1);
 }
+
+/* TABLETS */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    .boton-flotante {
+        position: fixed;
+        bottom: 20px; 
+        right: 20px; 
+        width: 60px; 
+        height: 60px; 
+        background-color: #FFFF;
+        background-image: url("../statics/whatsapp.png");
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+        transition: transform 0.3s ease-in-out;
+    }
+
+}

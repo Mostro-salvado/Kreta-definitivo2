@@ -29,11 +29,11 @@ export default function FotografiaHome() {
   }, []); 
 
   return (
-    <div className={`containerav ${isVisible ? 'visible blur-in-expand' : ''}`} onClick={handleClick}>
+    <div className={`containerfo ${isVisible ? 'visible blur-in-expand' : ''}`} onClick={handleClick}>
       <div className="fotografia">
         <h2>Fotografía</h2>
         <div>{show && <ShowFotografia></ShowFotografia>}</div>
       </div>
     </div>
   );
-}
+} 

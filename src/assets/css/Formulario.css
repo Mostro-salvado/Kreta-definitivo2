@@ -42,3 +42,87 @@
     color:#31A28C ;
     margin-bottom: 10px;
 }
+
+/* TABLETS */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    .titulo-contacto{
+        margin: 20px 20px;
+        font-family: 'Mont-Black', sans-serif;
+        color: #FFFF;
+        font-size: xx-large;
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        font-family: 'Mont-Light', sans-serif;
+        color: #FFFF;
+        width: 70%;
+    }
+    .formulario label{
+        margin-bottom: 10px;
+        font-size: large;
+        font-family: 'Mont-Light', sans-serif;
+    }
+    .entrada{
+        margin-bottom: 10px;
+        font-size: large;
+        font-family: 'Mont-Light', sans-serif;
+    }
+    .formulario textarea{
+        margin-bottom: 10px;
+        font-size: x-large;
+        font-family: 'Mont-Light', sans-serif;
+    }
+    .submit{
+        margin-top: 20px;
+        font-family: 'Mont-Light', sans-serif;
+        font-size: x-large;
+    }
+
+} 
+
+/* ESCRITORIO */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .titulo-contacto{
+        margin: 20px 20px;
+        font-family: 'Mont-Black', sans-serif;
+        color: #FFFF;
+        font-size: xx-large;
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        font-family: 'Mont-Light', sans-serif;
+        color: #FFFF;
+        width: 70%;
+    }
+    .formulario label{
+        margin-bottom: 10px;
+        font-size: large;
+        font-family: 'Mont-Light', sans-serif;
+    }
+    .entrada{
+        margin-bottom: 10px;
+        font-size: large;
+        font-family: 'Mont-Light', sans-serif;
+    }
+    .formulario textarea{
+        margin-bottom: 10px;
+        font-size: x-large;
+        font-family: 'Mont-Light', sans-serif;
+    }
+    .submit{
+        margin-top: 20px;
+        font-family: 'Mont-Light', sans-serif;
+        font-size: x-large;
+    }
+}
