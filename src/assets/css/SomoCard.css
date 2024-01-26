@@ -127,3 +127,48 @@
     }
     
 }
+/* ESCRITORIO GRANDE */
+@media only screen and (min-width: 1200px){
+    .wraper-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #31A28C;
+        border-radius: 30px;
+        margin-bottom: 132px;
+        height: 80vh;
+        margin-top: 60px;
+    }
+    
+    .imagen {
+        width: 100%;
+        height: auto;
+        margin: 5px;
+        border-radius: 30px;
+    }
+    .imagen:hover{
+        cursor: pointer;
+    }
+
+    .descripcion {
+        display: flex;
+        font-family: 'Mont-Light', sans-serif;
+        text-align: center;
+        font-size: x-large;
+        color: #31A28C;
+        margin-top: 22px;
+        margin-bottom: 80px;
+        background-color: #FFFF;
+        border-bottom: 30px;
+        height: 80px;
+    }
+
+    .somosCard-container{
+        width: 94%;
+        padding:20px;
+    }
+    .nombre{
+        font-size: xx-large;
+    }
+}

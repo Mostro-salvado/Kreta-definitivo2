@@ -126,3 +126,53 @@
         font-size: x-large;
     }
 }
+/* ESCRITORIO GRANDE */
+@media only screen and (min-width: 1200px){
+    .titulo-contacto{
+        margin: 20px 20px;
+        font-family: 'Mont-Black', sans-serif;
+        color: #FFFF;
+        font-size: xx-large;
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        font-family: 'Mont-Light', sans-serif;
+        color: #FFFF;
+        width: 70%;
+    }
+    .formulario label{
+        margin-bottom: 10px;
+        font-size: large;
+        font-family: 'Mont-Light', sans-serif;
+    }
+    .entrada{
+        margin-bottom: 10px;
+        font-size: large;
+        font-family: 'Mont-Light', sans-serif;
+    }
+    .formulario textarea{
+        margin-bottom: 10px;
+        font-size: x-large;
+        font-family: 'Mont-Light', sans-serif;
+    }
+    .submit{
+        margin-top: 20px;
+        font-family: 'Mont-Light', sans-serif;
+        font-size: x-large;
+    }
+    .wraper-contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #31A28C;
+        height: 80vh;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

@@ -23,6 +23,9 @@
     max-height: 100px;
     width: auto;
 }
+.Logokreta:hover{
+    cursor: pointer;
+}
 
 .nav {
     display: flex;
@@ -60,6 +63,9 @@
     color: #31A28C;
     font-size: large;
 }
+.Logokreta:hover{
+    cursor: pointer;
+}
 
 }
 
@@ -78,9 +84,32 @@
         color: #31A28C;
         font-size: x-large;
 }
+.Logokreta:hover{
+    cursor: pointer;
+}
 }
 
 /* ESCRITORIO GRANDE */
 @media only screen and (min-width: 1200px){
-
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-link {
+        text-decoration: none;
+        margin: 0 30px;
+        font-family: 'Mont-Black', sans-serif;
+        color: #31A28C;
+        font-size: x-large;
+    }
+    .nav-link:hover{
+        color: #288572;
+        font-size:xx-large ;
+        transition: 300ms
+    }
+    .Logokreta:hover{
+        cursor: pointer;
+    }
 }

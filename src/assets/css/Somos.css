@@ -53,4 +53,27 @@
         font-family: 'Mont-Black', sans-serif;
     }
     
+} 
+/* ESCRITORIO GRANDE */
+@media only screen and (min-width: 1200px){
+    .container-bio{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    .bio{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .titulo{
+        color: #EF5446;
+        margin-top: 10px;
+        margin-bottom: 35px;
+        font-size: 71px;
+        font-family: 'Mont-Black', sans-serif;
+    }
 }

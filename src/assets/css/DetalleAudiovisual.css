@@ -124,3 +124,113 @@
     }
 
 }
+/* ESCRITORIO GRANDE */
+@media only screen and (min-width: 1200px){
+    .video-audiovisual-detalle.SPOTS{
+        width: 50%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .video-audiovisual-detalle.INSTITUCIONALES{
+        width: 50%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-right: 40px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .video-audiovisual-detalle.AÉREAS{
+        width: 50%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .video-audiovisual-detalle.COBERTURAS{
+        width: 50%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-right: 50px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    
+    .wraper-audiovisual.SPOTS{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+    .wraper-audiovisual.INSTITUCIONALES{
+        display: flex;
+        justify-content: center;
+        flex-direction:row-reverse;
+        align-items: center;
+    }
+    .wraper-audiovisual.AÉREAS{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+    .wraper-audiovisual.COBERTURAS{
+        display: flex;
+        justify-content: center;
+        flex-direction:row-reverse;
+        align-items: center;
+    }
+    .wraper-audiovisual.SPOTS  p{
+        margin: 20px;
+        width: 90%;
+    }
+    .wraper-audiovisual.INSTITUCIONALES  p{
+        margin: 20px;
+        width: 90%;
+    }
+    .wraper-audiovisual.AÉREAS  p{
+        margin: 20px;
+        width: 90%;
+    }
+    .wraper-audiovisual.COBERTURAS  p{
+        margin: 20px;
+        width: 90%;
+    }
+    .texto-audiovisual-detalle{
+        width: 50%;
+    }
+    .titulo-audiovisual-detalle{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 40px;
+        text-align: center;
+    }
+}
+

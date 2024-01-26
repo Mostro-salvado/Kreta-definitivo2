@@ -78,3 +78,31 @@
         font-size: x-large;
     }
 }
+/* ESCRITORIO GRANDE */
+@media only screen and (min-width: 1200px){
+    .ubicacion-wraper{
+        margin-top: 0px;
+    }
+    .texto-descripcion{
+        margin: 30px;
+        color: #FFFF;
+        font-size: x-large;
+    }
+    .mapa {
+        width: 50%; /* Ocupa el 80% del ancho de la pantalla */
+        height: 100%; /* Ocupa el 100% de la altura del contenedor */
+        max-height: 300px; /* Límite máximo de altura */
+        margin: auto; /* Centra horizontalmente */
+        position: relative; /* Para que el position: absolute funcione */
+    }
+    
+    .mapa iframe {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%; /* Ocupa todo el espacio disponible horizontalmente */
+        height: 100%; /* Ocupa todo el espacio disponible verticalmente */
+    }
+    
+}

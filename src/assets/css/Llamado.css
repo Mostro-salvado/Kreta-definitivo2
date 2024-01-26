@@ -55,10 +55,12 @@
 /* ESCRITORIO */
 @media only screen and (min-width: 992px) and (max-width: 1199px){
 
-    .container-llamado p{
+    .container-llamado p {
         font-family: 'Mont-Light', sans-serif;
         color: #FFFF;
         margin: 20px;
+        margin-right: 68px;
+        margin-left: 68px;
         margin-top: 50px;
         font-size: x-large;
     }
@@ -75,4 +77,40 @@
         text-align: center;
         font-size: xx-large;
     }
+}
+/* ESCRITORIO GRANDE */
+@media only screen and (min-width: 1200px){
+    .container-llamado p {
+        font-family: 'Mont-Light', sans-serif;
+        color: #FFFF;
+        margin: 20px;
+        margin-right: 220px;
+        margin-left: 220px;
+        margin-top: 50px;
+        font-size: x-large;
+    }
+    .Link-Contactanos {
+        text-decoration: none;
+        background-color: #663287;
+        color: #FFFF;
+        font-family: 'Mont-Black', sans-serif;
+        margin: 20px;
+        margin-bottom: 50px;
+        border-radius: 15px;
+        width: 250px;
+        height: 40px;
+        text-align: center;
+        font-size: x-large;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Link-Contactanos:hover{
+        background-color: #4b2166;
+        width: 280px;
+        height: 50px;
+        font-size: xx-large;
+        transition: 300ms;
+    }
+
 }

@@ -26,4 +26,11 @@
     background-color: #663287;
 } 
 
+/* ESCRITORIO GRANDE */
+@media only screen and (min-width: 1200px){
+    .texto{
+        font-size:xx-large;
+        margin-bottom: 20px;
+    }
+}
 

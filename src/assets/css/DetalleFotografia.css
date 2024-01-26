@@ -65,3 +65,22 @@
     }
 
 }
+/* ESCRITORIO GRANDE */
+@media only screen and (min-width: 1200px){
+    .fotografia-detalle img{
+        width: 140vh;
+        height: auto;
+    }
+    .texto-fotografia-detalle p{
+        font-family: 'Mont-Black', sans-serif;
+        color: #FFFF;
+        margin: 40px;
+    }
+    .titulo-fotografia-detalle{
+        font-family: 'Mont-Black', sans-serif;
+        color: #FFFF;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+}

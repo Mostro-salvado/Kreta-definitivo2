@@ -57,5 +57,18 @@
     .containerav {
         margin-top: 10px;
     }
+    .audiovisual {
+        padding: 7px;
+        font-family: 'Mont-Black', sans-serif;
+    }
 
 } 
+/* ESCRITORIO GRANDE */
+@media only screen and (min-width: 1200px){
+    .audiovisual h2 {
+        margin: 0 auto; 
+        text-align: center;
+        color: #FFFF;
+        font-size: xx-large;
+    }
+}
