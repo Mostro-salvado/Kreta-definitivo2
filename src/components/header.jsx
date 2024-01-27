@@ -14,6 +14,20 @@ export default function Header() {
         }, 100);
     };
 
+    const redirectToAudiovisual = () => {
+        Navigate("/audiovisual");
+        setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }, 100);
+    };
+
+    const redirectToFotografia = () => {
+        Navigate("/fotografia");
+        setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }, 100);
+    };
+
     const redirectToSomos = () => {
         Navigate("/");
         setTimeout(() => {
@@ -37,8 +51,8 @@ export default function Header() {
                     style={{ cursor: "pointer" }}/>
                     <nav className="nav">
                         <span className="nav-link" onClick={redirectToHome}>Home</span>
-                        <Link className="nav-link" to="/audiovisual">Audiovisual</Link>
-                        <Link className="nav-link" to="/fotografia">Fotografía</Link>
+                        <span className="nav-link" onClick={redirectToAudiovisual}>Audiovisual</span>
+                        <span className="nav-link" onClick={redirectToFotografia}>Fotografía</span>
                         <span className="nav-link" onClick={redirectToSomos}>Somos Kreta</span>
                     </nav>
                 </div>

@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
     background-color: #31A28C;
-    margin-top: 20px;
+    margin-top: 85px; 
     margin-bottom: 20px;
 }
 
@@ -34,6 +34,10 @@
 
 .textarea{
     height: 100px;
+    font-family: 'Mont-Light', sans-serif;
+}
+.entrada{
+    font-family: 'Mont-Light', sans-serif;
 }
 
 .mensaje-exito{
@@ -75,7 +79,7 @@
     }
     .formulario textarea{
         margin-bottom: 10px;
-        font-size: x-large;
+        font-size: large;
         font-family: 'Mont-Light', sans-serif;
     }
     .submit{
@@ -117,7 +121,7 @@
     }
     .formulario textarea{
         margin-bottom: 10px;
-        font-size: x-large;
+        font-size: large;
         font-family: 'Mont-Light', sans-serif;
     }
     .submit{
@@ -157,7 +161,7 @@
     }
     .formulario textarea{
         margin-bottom: 10px;
-        font-size: x-large;
+        font-size:large;
         font-family: 'Mont-Light', sans-serif;
     }
     .submit{

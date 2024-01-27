@@ -52,4 +52,16 @@ p{
         text-align: center;
         font-size: x-large;
     }
+    .social{
+        align-items: center;
+    }
+    .linkedin:hover{
+        height: 60px;
+    }
+    .instagram:hover{
+        height: 60px;
+    }
+    .youtube:hover{
+        height: 60px;
+    }
 }

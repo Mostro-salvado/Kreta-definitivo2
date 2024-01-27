@@ -26,7 +26,7 @@ export default function Formulario() {
     return (
         <> 
             <div className="wraper-contacto">
-                <div className="titulo-contacto">Estás listo para contactarnos?</div>
+                <div className="titulo-contacto">Llena el formulario para contactarnos</div>
                 {enviadoConExito && <div className="mensaje-exito">¡Mensaje enviado con éxito!</div>}
                 <form ref={form} onSubmit={sendEmail} className="formulario">
                     <label>Nombre</label>
