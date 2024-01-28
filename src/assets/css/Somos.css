@@ -1,5 +1,7 @@
 @import '../css/Fonts.css';
 
+/* CELULARES S */
+
 .container-somos{
     background-color: #FFFF;
     display: flex;
@@ -15,6 +17,41 @@
     font-family: 'Mont-Black', sans-serif;
 }
 
+/* CELULARES M */
+@media only screen and (min-width: 375px) and (max-width: 424px){
+    .container-somos{
+        background-color: #FFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .titulo{
+        color: #EF5446;
+        margin-top: 20px;
+        font-size: x-large;
+        font-family: 'Mont-Black', sans-serif;
+    }
+}
+
+/* CELULARES L */
+@media only screen and (min-width: 425px) and (max-width: 767px){
+    .container-somos{
+        background-color: #FFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .titulo{
+        color: #EF5446;
+        margin-top: 20px;
+        font-size: x-large;
+        font-family: 'Mont-Black', sans-serif;
+    }
+}
 
 /* TABLETS */
 @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -49,13 +86,13 @@
         color: #EF5446;
         margin-top: 5px;
         margin-bottom: 35px;
-        font-size: 71px;
+        font-size: 50px;
         font-family: 'Mont-Black', sans-serif;
     }
     
 } 
 /* ESCRITORIO GRANDE */
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) and (max-width: 1440px){
     .container-bio{
         display: flex;
         align-items: center;
@@ -71,9 +108,33 @@
     }
     .titulo{
         color: #EF5446;
-        margin-top: 10px;
-        margin-bottom: 35px;
-        font-size: 71px;
+        margin-top: 50px;
+        margin-bottom: 80px;
+        font-size: 80px;
+        font-family: 'Mont-Black', sans-serif;
+    }
+}
+
+/* 4K */
+@media only screen and (min-width: 1441px) and (max-width: 2560px){
+    .container-bio{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    .bio{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .titulo{
+        color: #EF5446;
+        margin-top: 50px;
+        margin-bottom: 80px;
+        font-size: 80px;
         font-family: 'Mont-Black', sans-serif;
     }
 }

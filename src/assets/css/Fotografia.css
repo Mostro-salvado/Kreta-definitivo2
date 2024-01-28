@@ -1,3 +1,47 @@
+/* CELULARES S */
+
 .container-detalle-fotografia{
     margin-top: 90px;
+}
+
+/* CELULARES M */
+@media only screen and (min-width: 375px) and (max-width: 424px){
+    .container-detalle-fotografia{
+        margin-top: 90px;
+    }
+}
+
+/* CELULARES L */
+@media only screen and (min-width: 425px) and (max-width: 767px){
+    .container-detalle-fotografia{
+        margin-top: 90px;
+    }
+}
+
+/* TABLETS */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container-detalle-fotografia{
+        margin-top: 90px;
+    }
+}
+
+/* ESCRITORIO */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .container-detalle-fotografia{
+        margin-top: 90px;
+    }
+}
+
+/* ESCRITORIO GRANDE */
+@media only screen and (min-width: 1200px) and (max-width: 1440px){
+    .container-detalle-fotografia{
+        margin-top: 90px;
+    }
+}
+
+/* 4K */
+@media only screen and (min-width: 1441px) and (max-width: 2560px){
+    .container-detalle-fotografia{
+        margin-top: 90px;
+    }
 }

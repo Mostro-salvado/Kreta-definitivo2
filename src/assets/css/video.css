@@ -1,5 +1,57 @@
+/* CELULARES S */
+.video-container iframe{
+    width: 100%;
+    height: 80%;
+    top: 50px;
+}
+
+/* CELULARES M */
+@media only screen and (min-width: 375px) and (max-width: 424px){
+    .video-container iframe{
+        width: 100%;
+        height: 80%;
+        top: 50px;
+    }
+}
+
+/* CELULARES L */
+@media only screen and (min-width: 425px) and (max-width: 767px){
+    .video-container iframe{
+        width: 100%;
+        height: 80%;
+        top: 50px;
+    }
+}
+
 /* TABLETS */
 @media only screen and (min-width: 768px) and (max-width: 991px){
+    .video-container iframe{
+        width: 100%;
+        height: 80%;
+        top: 50px;
+    }
+}
+
+/* ESCRITORIO */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .video-container iframe{
+        width: 100%;
+        height: 80%;
+        top: 50px;
+    }
+}
+
+/* ESCRITORIO GRANDE */
+@media only screen and (min-width: 1200px) and (max-width: 1440px){
+    .video-container iframe{
+        width: 100%;
+        height: 80%;
+        top: 50px;
+    }
+}
+
+/* 4K */
+@media only screen and (min-width: 1441px) and (max-width: 2560px){
     .video-container iframe{
         width: 100%;
         height: 80%;

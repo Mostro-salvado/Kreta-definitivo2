@@ -1,5 +1,7 @@
 @import '../css/Fonts.css';
 
+/* CELULARES S */
+
 .container-llamado{
     display: flex;
     justify-content: center;
@@ -24,6 +26,63 @@
     width: 150px;
     text-align: center;
 }
+
+/* CELULARES M */
+@media only screen and (min-width: 375px) and (max-width: 424px){
+    .container-llamado{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #69A3D4;
+        align-items: center;
+    }
+    .container-llamado p{
+        font-family: 'Mont-Light', sans-serif;
+        color: #FFFF;
+        margin: 20px;
+        margin-top: 50px;
+    }
+    
+    .Link-Contactanos{
+        text-decoration: none;
+        background-color: #663287;
+        color: #FFFF;
+        font-family: 'Mont-Black', sans-serif;
+        margin: 20px;
+        border-radius: 15px;
+        width: 150px;
+        text-align: center;
+    }
+}
+
+/* CELULARES L */
+@media only screen and (min-width: 425px) and (max-width: 767px){
+    .container-llamado{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #69A3D4;
+        align-items: center;
+    }
+    .container-llamado p{
+        font-family: 'Mont-Light', sans-serif;
+        color: #FFFF;
+        margin: 20px;
+        margin-top: 50px;
+    }
+    
+    .Link-Contactanos{
+        text-decoration: none;
+        background-color: #663287;
+        color: #FFFF;
+        font-family: 'Mont-Black', sans-serif;
+        margin: 20px;
+        border-radius: 15px;
+        width: 150px;
+        text-align: center;
+    }
+}
+
 /* TABLETS */
 @media only screen and (min-width: 768px) and (max-width: 991px){
 
@@ -49,8 +108,6 @@
         font-size: x-large;
     }
 }
-
-
 
 /* ESCRITORIO */
 @media only screen and (min-width: 992px) and (max-width: 1199px){
@@ -79,15 +136,15 @@
     }
 }
 /* ESCRITORIO GRANDE */
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) and (max-width: 1440px){
     .container-llamado p {
         font-family: 'Mont-Light', sans-serif;
         color: #FFFF;
         margin: 20px;
         margin-right: 220px;
         margin-left: 220px;
-        margin-top: 50px;
-        font-size: x-large;
+        margin-top: 30px;
+        font-size: xx-large;
     }
     .Link-Contactanos {
         text-decoration: none;
@@ -113,4 +170,40 @@
         transition: 300ms;
     }
 
+}
+
+/* 4K */
+@media only screen and (min-width: 1441px) and (max-width: 2560px){
+    .container-llamado p {
+        font-family: 'Mont-Light', sans-serif;
+        color: #FFFF;
+        margin: 20px;
+        margin-right: 220px;
+        margin-left: 220px;
+        margin-top: 50px;
+        font-size: 50px;
+    }
+    .Link-Contactanos {
+        text-decoration: none;
+        background-color: #663287;
+        color: #FFFF;
+        font-family: 'Mont-Black', sans-serif;
+        margin: 20px;
+        margin-bottom: 50px;
+        border-radius: 15px;
+        width: 388px;
+        height: 64px;
+        text-align: center;
+        font-size: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Link-Contactanos:hover{
+        background-color: #4b2166;
+        width: 280px;
+        height: 50px;
+        font-size: xx-large;
+        transition: 300ms;
+    }
 }

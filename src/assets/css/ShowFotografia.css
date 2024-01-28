@@ -1,3 +1,5 @@
+/* CELULARES S */
+
 .oculto{
     display: flex;
     justify-content:center;
@@ -27,6 +29,70 @@
     background-color: #663287;
 }
 
+/* CELULARES M */
+@media only screen and (min-width: 375px) and (max-width: 424px){
+    .oculto{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    
+    .texto{
+        font-family: 'Mont-Light', sans-serif;
+    }
+    
+    .vermas{
+        text-decoration: none;
+        background-color: #69A3D4;
+        font-size: 20px;
+        color: #FFFFFF;
+        box-shadow: none;
+        text-shadow: none;
+        font-family: 'Mont-Black', sans-serif;
+        height: auto;
+        width: 100px;
+        text-align: center;
+    }
+    
+    .vermas:hover{
+        background-color: #663287;
+    }
+}
+
+/* CELULARES L */
+@media only screen and (min-width: 425px) and (max-width: 767px){
+    .oculto{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    
+    .texto{
+        font-family: 'Mont-Light', sans-serif;
+    }
+    
+    .vermas{
+        text-decoration: none;
+        background-color: #69A3D4;
+        font-size: 20px;
+        color: #FFFFFF;
+        box-shadow: none;
+        text-shadow: none;
+        font-family: 'Mont-Black', sans-serif;
+        height: auto;
+        width: 100px;
+        text-align: center;
+    }
+    
+    .vermas:hover{
+        background-color: #663287;
+    }
+}
+
 /* TABLETS */
 @media only screen and (min-width: 768px) and (max-width: 991px){
 
@@ -48,6 +114,7 @@
         margin-top: 10px;
     }
 }
+
 /* ESCRITORIO */
 @media only screen and (min-width: 992px) and (max-width: 1199px){
     .oculto{
@@ -63,13 +130,26 @@
 }
 
 /* ESCRITORIO GRANDE */
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) and (max-width: 1440px){
     .texto{
         font-size:xx-large;
         margin-bottom: 20px;
     }
     .vermas{
         font-size: 30px;
+        
+    }
+}
+
+/* 4K */
+@media only screen and (min-width: 1441px) and (max-width: 2560px){
+    .texto{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .vermas{
+        font-size: 50px;
+        width: 150px;
         
     }
 }

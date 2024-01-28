@@ -1,3 +1,4 @@
+/* CELULARES S */
 .container-detalle-audiovisual{
     display: flex;
     flex-direction: column;
@@ -5,8 +6,49 @@
     align-items: center;
 } 
 
+/* CELULARES M */
+@media only screen and (min-width: 375px) and (max-width: 424px){
+    .container-detalle-audiovisual{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/* CELULARES L */
+@media only screen and (min-width: 425px) and (max-width: 767px){
+    .container-detalle-audiovisual{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* TABLETS */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container-detalle-audiovisual{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
 /* ESCRITORIO */
-@media only screen and (min-width: 992px) and (max-width: 1199px){}
+@media only screen and (min-width: 1200px) and (max-width: 1440px){
+    .container-detalle-audiovisual{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
 /* ESCRITORIO GRANDE */
 @media only screen and (min-width: 1200px){
     .container-detalle-audiovisual{
@@ -16,4 +58,15 @@
         align-items: center;
         margin-top: 100px;
     } 
+}
+
+/* 4K */
+@media only screen and (min-width: 1441px) and (max-width: 2560px){
+    .container-detalle-audiovisual{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
 }

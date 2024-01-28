@@ -1,5 +1,6 @@
 @import '../css/Fonts.css';
 
+/* CELULARES S */
 .container-footer{
     background-color: #9484FF;
     display: flex;
@@ -20,12 +21,75 @@ p{
 
 .social img{
     display: flex;
-    height: 40px;
+    height: 30px;
     margin-left: 10px;
 }
 
 .copyright{
-    margin-left: 20px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+/* CELULARES M */
+@media only screen and (min-width: 375px) and (max-width: 424px){
+    .container-footer{
+        background-color: #9484FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row; 
+    }
+    
+    p{
+        font-family: 'Mont-Light', sans-serif;
+        text-align: center;
+    }
+    
+    .social{
+        display: flex;
+        text-decoration: none;
+    }
+    
+    .social img{
+        display: flex;
+        height: 40px;
+        margin-left: 10px;
+    }
+    
+    .copyright{
+        margin-left: 20px;
+    }
+}
+
+/* CELULARES L */
+@media only screen and (min-width: 425px) and (max-width: 767px){
+    .container-footer{
+        background-color: #9484FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row; 
+    }
+    
+    p{
+        font-family: 'Mont-Light', sans-serif;
+        text-align: center;
+    }
+    
+    .social{
+        display: flex;
+        text-decoration: none;
+    }
+    
+    .social img{
+        display: flex;
+        height: 40px;
+        margin-left: 10px;
+    }
+    
+    .copyright{
+        margin-left: 20px;
+    }
 }
 
 /* TABLETS */
@@ -34,6 +98,9 @@ p{
         font-family: 'Mont-Light', sans-serif;
         text-align: center;
         font-size: x-large;
+    }
+    .social img {
+        height: 45px;
     }
 }
 
@@ -44,9 +111,37 @@ p{
         text-align: center;
         font-size: x-large;
     }
+    .social img {
+        height: 45px;
+    }
 }
 /* ESCRITORIO GRANDE */
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) and (max-width: 1440px){
+    p{
+        font-family: 'Mont-Light', sans-serif;
+        text-align: center;
+        font-size:xx-large
+    }
+    .social{
+        align-items: center;
+    }
+    .linkedin:hover{
+        height: 60px;
+    }
+    .instagram:hover{
+        height: 60px;
+    }
+    .youtube:hover{
+        height: 60px;
+    }
+    .social img{
+        height: 60px;
+    }
+
+}
+
+/* 4K */
+@media only screen and (min-width: 1441px) and (max-width: 2560px){
     p{
         font-family: 'Mont-Light', sans-serif;
         text-align: center;
@@ -63,5 +158,11 @@ p{
     }
     .youtube:hover{
         height: 60px;
+    }
+    .copyright{
+        font-size: 70px;
+    }
+    .social img {
+        height: 120px;
     }
 }

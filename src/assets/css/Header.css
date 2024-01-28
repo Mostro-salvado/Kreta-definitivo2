@@ -1,6 +1,6 @@
 @import '../css/Fonts.css';
 
-
+/* CELULARES S */
 .header .container {
     position: fixed;
     top: 0;
@@ -43,8 +43,111 @@
 
 
 .logo-link {
-    text-decoration: none; /* Puedes personalizar los estilos según tus necesidades */
-    color: inherit; /* Puedes personalizar los estilos según tus necesidades */
+    text-decoration: none; 
+    color: inherit; 
+}
+
+
+/* CELULARES M */
+@media only screen and (min-width: 375px) and (max-width: 424px){
+    .header .container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1200;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #FFFF;
+        padding: 5px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    
+    }
+    
+    .Logokreta {
+        max-height: 100px;
+        width: auto;
+    }
+    .Logokreta:hover{
+        cursor: pointer;
+    }
+    
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-link {
+        text-decoration: none;
+        margin: 0 50px;
+        font-family: 'Mont-Black', sans-serif;
+        color: #31A28C;
+    }
+    
+    
+    .logo-link {
+        text-decoration: none; 
+        color: inherit; 
+    }
+    
+}
+
+
+
+/* CELULARES L */
+@media only screen and (min-width: 425px) and (max-width: 767px){
+    .header .container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1200;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #FFFF;
+        padding: 5px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    
+    }
+    
+    .Logokreta {
+        max-height: 100px;
+        width: auto;
+    }
+    .Logokreta:hover{
+        cursor: pointer;
+    }
+    
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-link {
+        text-decoration: none;
+        margin: 0 50px;
+        font-family: 'Mont-Black', sans-serif;
+        color: #31A28C;
+    }
+    
+    
+    .logo-link {
+        text-decoration: none; 
+        color: inherit; 
+    }
+    
 }
 
 
@@ -91,7 +194,7 @@
 }
 
 /* ESCRITORIO GRANDE */
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) and (max-width: 1440px){
     .nav {
         display: flex;
         flex-direction: row;
@@ -112,5 +215,42 @@
     }
     .Logokreta:hover{
         cursor: pointer;
+    }
+}
+
+/* 4K */
+@media only screen and (min-width: 1441px) and (max-width: 2560px){
+    @media only screen and (min-width: 1200px){
+        .header .container {
+            height: 200px;
+        }
+        .Logokreta{
+            height: 120%;
+        }
+        .Logokreta{
+            max-height: none;
+        }
+
+        .nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-link {
+            text-decoration: none;
+            margin: 0 30px;
+            font-family: 'Mont-Black', sans-serif;
+            color: #31A28C;
+            font-size: 70px;
+        }
+        .nav-link:hover{
+            color: #288572;
+            font-size:xx-large ;
+            transition: 300ms
+        }
+        .Logokreta:hover{
+            cursor: pointer;
+        }
     }
 }

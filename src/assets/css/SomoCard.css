@@ -1,5 +1,7 @@
 @import '../css/Fonts.css';
 
+/* CELULARES S */
+
 .wraper-card{
     display: flex;
     flex-direction: column;
@@ -22,7 +24,7 @@
     border-radius: 25px;
     padding:10px;
     height: 80vh;
-    width: 96%;
+    width: 94%;
 }
 
 .nombre{
@@ -52,8 +54,119 @@
     border-bottom: 30px;
 }
 
+/* CELULARES M */
+@media only screen and (min-width: 375px) and (max-width: 424px){
+    .wraper-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #31A28C;
+        border-radius: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        height: 65vh
+    }
+    
+    .somosCard-container{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around ;
+        align-items: center;
+        background-color: #31A28C;
+        border-radius: 25px;
+        padding:10px;
+        height: 80vh;
+        width: 96%;
+    }
+    
+    .nombre{
+        font-family: 'Mont-Black', sans-serif;
+        text-align: center;
+        font-size: x-large;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #FFFF;
+    }
+    
+    .imagen{
+        width: 95%;
+        height: auto;
+        margin: 10px;
+        border-radius: 30px;
+    }
+    
+    .descripcion{
+        display: flex;
+        font-family: 'Mont-Light', sans-serif;
+        text-align: center;
+        font-size:medium;
+        color: #31A28C;
+        margin: 20px;
+        background-color: #FFFF;
+        border-bottom: 30px;
+    }
+}
+
+/* CELULARES L */
+@media only screen and (min-width: 425px) and (max-width: 767px){
+    .wraper-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #31A28C;
+        border-radius: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        height: 65vh
+    }
+    
+    .somosCard-container{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around ;
+        align-items: center;
+        background-color: #31A28C;
+        border-radius: 25px;
+        padding:10px;
+        height: 80vh;
+        width: 96%;
+    }
+    
+    .nombre{
+        font-family: 'Mont-Black', sans-serif;
+        text-align: center;
+        font-size: x-large;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #FFFF;
+    }
+    
+    .imagen{
+        width: 95%;
+        height: auto;
+        margin: 10px;
+        border-radius: 30px;
+    }
+    
+    .descripcion{
+        display: flex;
+        font-family: 'Mont-Light', sans-serif;
+        text-align: center;
+        font-size:medium;
+        color: #31A28C;
+        margin: 20px;
+        margin-top: 5px;
+        background-color: #FFFF;
+        border-bottom: 30px;
+    }
+}
+
 /* TABLETS */
-@media only screen and (min-width: 767px) and (max-width: 991px){
+@media only screen and (min-width: 768px) and (max-width: 1023px){
 
     .wraper-card {
         display: flex;
@@ -65,15 +178,16 @@
         margin-left: 90px;
         margin-right: 90px;
         margin-bottom: 20px;
-        height: 84vh;
+        height: 76vh;
         margin-top: 40px;
     }
     
     .imagen {
-        width: 67%;
+        width: 80%;
         height: auto;
         margin: 10px;
         border-radius: 30px;
+        
     }
 
     .descripcion {
@@ -82,17 +196,17 @@
         text-align: center;
         font-size: medium;
         color: #31A28C;
-        margin-top: 22px;
+        margin-top: 15px;
         margin-bottom: 20px;
         background-color: #FFFF;
         border-bottom: 30px;
     }
     .somosCard-container{
-        width: 97%;
+        width: 98%;
     }
 }
 /* ESCRITORIO */
-@media only screen and (min-width: 992px) and (max-width: 1199px){
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
     .wraper-card {
         display: flex;
         flex-direction: column;
@@ -101,8 +215,9 @@
         border: 2px solid #31A28C;
         border-radius: 30px;
         margin-bottom: 132px;
-        height: 80vh;
-        margin-top: 60px;
+        height: 70vh;
+        margin-top: 130px;
+        margin-bottom: 100px;
         margin-right: 50px;
         margin-left: 50px;
     }
@@ -118,23 +233,23 @@
         display: flex;
         font-family: 'Mont-Light', sans-serif;
         text-align: center;
-        font-size: x-large;
+        font-size: large;
         color: #31A28C;
         margin-top: 22px;
-        margin-bottom: 80px;
+        margin-bottom: 110px;
         background-color: #FFFF;
         border-bottom: 30px;
         height: 80px;
     }
 
     .somosCard-container{
-        width: 94%;
+        width: 95%;
         padding:18px;
     }
     
 }
 /* ESCRITORIO GRANDE */
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1440px) and (max-width: 2559px){
     .wraper-card {
         display: flex;
         flex-direction: column;
@@ -143,6 +258,49 @@
         border: 2px solid #31A28C;
         border-radius: 30px;
         margin-bottom: 132px;
+        height: 70vh;
+        margin-top: 50px;
+        margin-bottom: 150px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    
+    .imagen {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        border-radius: 30px;
+    }
+
+    .descripcion {
+        display: flex;
+        font-family: 'Mont-Light', sans-serif;
+        text-align: center;
+        font-size: large;
+        color: #31A28C;
+        margin-top: 22px;
+        margin-bottom: 100px;
+        background-color: #FFFF;
+        border-bottom: 30px;
+        height: 80px;
+    }
+
+    .somosCard-container{
+        width: 100%;
+        padding:18px;
+    }
+}
+
+/* 4K */
+@media only screen and (min-width: 1441px) and (max-width: 2560px){
+    .wraper-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #31A28C;
+        border-radius: 30px;
+        margin-bottom: 330px;
         height: 80vh;
         margin-top: 60px;
     }
@@ -161,7 +319,7 @@
         display: flex;
         font-family: 'Mont-Light', sans-serif;
         text-align: center;
-        font-size: x-large;
+        font-size: 45px;
         color: #31A28C;
         margin-top: 22px;
         margin-bottom: 80px;
@@ -171,10 +329,10 @@
     }
 
     .somosCard-container{
-        width: 94%;
+        width: 97%;
         padding:20px;
     }
     .nombre{
-        font-size: xx-large;
+        font-size: 70px;
     }
 }

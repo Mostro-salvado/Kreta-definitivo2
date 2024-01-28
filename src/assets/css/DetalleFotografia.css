@@ -1,5 +1,7 @@
 @import '../css/Fonts.css';
 
+/* CELULARES S */
+
 .container-fotografia-detalle{
     display: flex;
     flex-direction: column;
@@ -44,6 +46,151 @@
     margin-bottom: 20px;
     font-size: x-large;
 }
+
+/* CELULARES M */
+@media only screen and (min-width: 375px) and (max-width: 424px){
+    .container-fotografia-detalle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .container-fotografia-detalle.INSTITUCIONALES{
+        background-color: #F18269;
+    }
+    .container-fotografia-detalle.PUBLICITARIAS{
+        background-color: #9484FF;
+    }
+    .container-fotografia-detalle.FOTO-PRODUCTO{
+        background-color: #663287;
+    }
+    .container-fotografia-detalle.AÉREAS{
+        background-color: #EF5446;
+    }
+    .container-fotografia-detalle.COBERTURAS{
+        background-color: #31A28C;
+    }
+    
+    
+    .fotografia-detalle img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .texto-fotografia-detalle p{
+        font-family: 'Mont-Black', sans-serif;
+        color: #FFFF;
+        margin: 20px;
+    }
+    
+    .titulo-fotografia-detalle{
+        font-family: 'Mont-Black', sans-serif;
+        color: #FFFF;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: x-large;
+    }
+}
+
+/* CELULARES L */
+@media only screen and (min-width: 425px) and (max-width: 767px){
+    .container-fotografia-detalle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .container-fotografia-detalle.INSTITUCIONALES{
+        background-color: #F18269;
+    }
+    .container-fotografia-detalle.PUBLICITARIAS{
+        background-color: #9484FF;
+    }
+    .container-fotografia-detalle.FOTO-PRODUCTO{
+        background-color: #663287;
+    }
+    .container-fotografia-detalle.AÉREAS{
+        background-color: #EF5446;
+    }
+    .container-fotografia-detalle.COBERTURAS{
+        background-color: #31A28C;
+    }
+    
+    
+    .fotografia-detalle img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .texto-fotografia-detalle p{
+        font-family: 'Mont-Black', sans-serif;
+        color: #FFFF;
+        margin: 20px;
+    }
+    
+    .titulo-fotografia-detalle{
+        font-family: 'Mont-Black', sans-serif;
+        color: #FFFF;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: x-large;
+    }
+}
+
+/* TABLETS */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container-fotografia-detalle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .container-fotografia-detalle.INSTITUCIONALES{
+        background-color: #F18269;
+    }
+    .container-fotografia-detalle.PUBLICITARIAS{
+        background-color: #9484FF;
+    }
+    .container-fotografia-detalle.FOTO-PRODUCTO{
+        background-color: #663287;
+    }
+    .container-fotografia-detalle.AÉREAS{
+        background-color: #EF5446;
+    }
+    .container-fotografia-detalle.COBERTURAS{
+        background-color: #31A28C;
+    }
+    
+    
+    .fotografia-detalle img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .texto-fotografia-detalle p{
+        font-family: 'Mont-Black', sans-serif;
+        color: #FFFF;
+        margin: 20px;
+    }
+    
+    .titulo-fotografia-detalle{
+        font-family: 'Mont-Black', sans-serif;
+        color: #FFFF;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: x-large;
+    }
+}
+
 /* ESCRITORIO */
 @media only screen and (min-width: 992px) and (max-width: 1199px){
 
@@ -66,7 +213,27 @@
 
 }
 /* ESCRITORIO GRANDE */
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) and (max-width: 1440px){
+    .fotografia-detalle img{
+        width: 140vh;
+        height: auto;
+    }
+    .texto-fotografia-detalle p{
+        font-family: 'Mont-Black', sans-serif;
+        color: #FFFF;
+        margin: 40px;
+    }
+    .titulo-fotografia-detalle{
+        font-family: 'Mont-Black', sans-serif;
+        color: #FFFF;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+}
+
+/* 4K */
+@media only screen and (min-width: 1441px) and (max-width: 2560px){
     .fotografia-detalle img{
         width: 140vh;
         height: auto;

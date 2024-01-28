@@ -1,5 +1,7 @@
 @import '../css/Fonts.css';
 
+/* CELULARES S */
+
 .containerfo {
     display: none;
     flex-direction: row;
@@ -35,6 +37,126 @@
 
 
 .blur-in-expand{animation:blur-in-expand 0.9s linear both} @keyframes blur-in-expand{0%{transform:scale(0);filter:blur(12px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
+
+/* CELULARES M */
+@media only screen and (min-width: 375px) and (max-width: 424px){
+    .containerfo {
+        display: none;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #9484FF;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+    
+    
+    .fotografia {
+        padding: 20px;
+        font-family: 'Mont-Black', sans-serif;
+    }
+    
+    .fotografia h2 {
+        margin: 0 auto;  
+        text-align: center;
+        color: #FFFF;
+    }
+    
+    
+    .containerfo {
+        transition: opacity 0.5s ease;
+    }
+    
+    
+    .containerfo.visible {
+        display: flex; 
+        justify-content: center;
+    }
+    
+    
+    .blur-in-expand{animation:blur-in-expand 0.9s linear both} @keyframes blur-in-expand{0%{transform:scale(0);filter:blur(12px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
+    
+}
+
+/* CELULARES L */
+@media only screen and (min-width: 425px) and (max-width: 767px){
+    .containerfo {
+        display: none;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #9484FF;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+    
+    
+    .fotografia {
+        padding: 20px;
+        font-family: 'Mont-Black', sans-serif;
+    }
+    
+    .fotografia h2 {
+        margin: 0 auto;  
+        text-align: center;
+        color: #FFFF;
+    }
+    
+    
+    .containerfo {
+        transition: opacity 0.5s ease;
+    }
+    
+    
+    .containerfo.visible {
+        display: flex; 
+        justify-content: center;
+    }
+    
+    
+    .blur-in-expand{animation:blur-in-expand 0.9s linear both} @keyframes blur-in-expand{0%{transform:scale(0);filter:blur(12px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
+    
+}
+
+/* TABLETS */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .containerfo {
+        display: none;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #9484FF;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+    
+    
+    .fotografia {
+        padding: 20px;
+        font-family: 'Mont-Black', sans-serif;
+    }
+    
+    .fotografia h2 {
+        margin: 0 auto;  
+        text-align: center;
+        color: #FFFF;
+    }
+    
+    
+    .containerfo {
+        transition: opacity 0.5s ease;
+    }
+    
+    
+    .containerfo.visible {
+        display: flex; 
+        justify-content: center;
+    }
+    
+    
+    .blur-in-expand{animation:blur-in-expand 0.9s linear both} @keyframes blur-in-expand{0%{transform:scale(0);filter:blur(12px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
+    
+}
 
 /* ESCRITORIO */
 @media only screen and (min-width: 992px) and (max-width: 1199px){
@@ -73,11 +195,21 @@
 
 } 
 /* ESCRITORIO GRANDE */
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) and (max-width: 1440px){
     .fotografia h2 {
         margin: 0 auto;  
         text-align: center;
         color: #FFFF;
         font-size: xx-large;
+    }
+}
+
+/* 4K */
+@media only screen and (min-width: 1441px) and (max-width: 2560px){
+    .fotografia h2 {
+        margin: 0 auto;  
+        text-align: center;
+        color: #FFFF;
+        font-size: 70px;
     }
 }

@@ -18,10 +18,10 @@ const MapaInteractivo = () => {
     });
 
     return (
-        <MapContainer center={positionInicial} zoom={13} style={{ height: '320px', width: '100%' }}>
+        <MapContainer center={positionInicial} zoom={15} style={{ height: '100%', width: '100%' }}>
             <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                attribution=''
             />
             {/* Marcador en la posición inicial con icono personalizado */}
             <Marker position={positionMarcador} icon={iconoPersonalizado}>
