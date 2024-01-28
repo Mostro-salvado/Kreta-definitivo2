@@ -1,6 +1,6 @@
 import Cobertura from "../src/assets/statics/UNIVERSIDAD AUSTRAL CARRERAS.mp4"
 import Spot from "../src/assets/statics/AEGHAR.mp4"
-import Institucional from "../src/assets/statics/UNIVERSIDAD AUSTRAL CARRERAS.mp4"
+import Institucional from "../src/assets/statics/FESTIVAL CIENCIA_GESTION_YOUTUBE.mp4"
 import Aerea from "../src/assets/statics/DRONES DE KRETA.mp4"
 
 const contenidoAudiovisual = [
