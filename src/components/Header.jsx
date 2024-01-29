@@ -50,10 +50,10 @@ export default function Header() {
                     onClick={redirectToHome}
                     style={{ cursor: "pointer" }}/>
                     <nav className="nav">
-                        <span className="nav-link" onClick={redirectToHome}>Home</span>
+                        <span className="nav-link" onClick={redirectToHome} lang="en">Home</span>
                         <span className="nav-link" onClick={redirectToAudiovisual}>Audiovisual</span>
                         <span className="nav-link" onClick={redirectToFotografia}>Fotografía</span>
-                        <span className="nav-link" onClick={redirectToSomos}>Somos Kreta</span>
+                        <span className="nav-link" onClick={redirectToSomos} lang="en">Somos Kreta</span>
                     </nav>
                 </div>
             </div>
