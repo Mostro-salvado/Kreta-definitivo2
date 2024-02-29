@@ -1,10 +1,10 @@
-/* CELULARES S */
+
 .boton-flotante {
     position: fixed;
-    bottom: 20px; 
-    right: 20px; 
-    width: 30px;
-    height: 30px; 
+    bottom: 4em; 
+    right: 1em; 
+    width: 3em;
+    height: 3em; 
     background-color: #FFFF;
     background-image: url("../statics/whatsapp.png");
     background-size: cover;
@@ -15,155 +15,32 @@
     justify-content: center;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
     transition: transform 0.3s ease-in-out;
+    z-index: 999;
 }
 
-.boton-flotante:hover {
-    transform: scale(1.1);
-}
 
-/* CELULARES M */
-@media only screen and (min-width: 375px) and (max-width: 424px){
+/*TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
     .boton-flotante {
-        position: fixed;
-        bottom: 20px; 
-        right: 20px; 
-        width: 40px; 
-        height: 40px; 
-        background-color: #FFFF;
-        background-image: url("../statics/whatsapp.png");
-        background-size: cover;
-        background-position: center;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
-        transition: transform 0.3s ease-in-out;
+        bottom: 1em;
     }
-    
-    .boton-flotante:hover {
-        transform: scale(1.1);
-    }
-}
-
-/* CELULARES L */
-@media only screen and (min-width: 425px) and (max-width: 767px){
-    .boton-flotante {
-        position: fixed;
-        bottom: 20px; 
-        right: 20px; 
-        width: 40px; 
-        height: 40px; 
-        background-color: #FFFF;
-        background-image: url("../statics/whatsapp.png");
-        background-size: cover;
-        background-position: center;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
-        transition: transform 0.3s ease-in-out;
-    }
-    
-    .boton-flotante:hover {
-        transform: scale(1.1);
-    }
-}
-
-
-/* TABLETS */
-@media only screen and (min-width: 768px) and (max-width: 991px){
-
-    .boton-flotante {
-        position: fixed;
-        bottom: 20px; 
-        right: 20px; 
-        width: 60px; 
-        height: 60px; 
-        background-color: #FFFF;
-        background-image: url("../statics/whatsapp.png");
-        background-size: cover;
-        background-position: center;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
-        transition: transform 0.3s ease-in-out;
-    }
-
 }
 
 /* ESCRITORIO */
-@media only screen and (min-width: 1200px) and (max-width: 1440px){
+@media only screen and (min-width: 1024PX){
     .boton-flotante {
-        position: fixed;
-        bottom: 20px; 
-        right: 20px; 
-        width: 60px; 
-        height: 60px; 
-        background-color: #FFFF;
-        background-image: url("../statics/whatsapp.png");
-        background-size: cover;
-        background-position: center;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
-        transition: transform 0.3s ease-in-out;
+        bottom: 4em;
+        right: 4em;
+        width: 4em;
+        height: 4em;
+    }
+    .boton-flotante:hover {
+        width: 5em;
+        height: 5em;
+        bottom: 3.5em;
+        right: 3.5em;
+        transition: 300ms;
+        cursor: pointer;
     }
 }
 
-/* ESCRITORIO GRANDE */
-@media only screen and (min-width: 1200px){
-    .boton-flotante {
-        position: fixed;
-        bottom: 20px; 
-        right: 20px; 
-        width: 80px;
-        height: 80px; 
-        background-color: #FFFF;
-        background-image: url("../statics/whatsapp.png");
-        background-size: cover;
-        background-position: center;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
-        transition: transform 0.3s ease-in-out;
-    }
-    .boton-flotante:hover{
-        height: 70px; 
-        width:70px ;
-        transition: 300ms;
-    }
-}
-
-/* 4K */
-@media only screen and (min-width: 1441px) and (max-width: 2560px){
-    .boton-flotante {
-        position: fixed;
-        bottom: 20px; 
-        right: 20px; 
-        width: 60px; 
-        height: 60px; 
-        background-color: #FFFF;
-        background-image: url("../statics/whatsapp.png");
-        background-size: cover;
-        background-position: center;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
-        transition: transform 0.3s ease-in-out;
-    }
-    .boton-flotante:hover{
-        height: 70px; 
-        width:70px ;
-        transition: 300ms;
-    }
-}

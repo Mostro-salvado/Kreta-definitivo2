@@ -1,72 +1,36 @@
-/* CELULARES S */
-.container-detalle-audiovisual{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} 
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
 
-/* CELULARES M */
-@media only screen and (min-width: 375px) and (max-width: 424px){
-    .container-detalle-audiovisual{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+body {
+    padding-top: 8em; /* Ajusta el valor según la altura de tu encabezado */
+}
+
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+span{font-size: 1em;}
+ul{list-style: none;}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    body {
+        padding-top: 6em; /* Ajusta el valor según la altura de tu encabezado */
     }
 }
 
 
-/* CELULARES L */
-@media only screen and (min-width: 425px) and (max-width: 767px){
-    .container-detalle-audiovisual{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-/* TABLETS */
-@media only screen and (min-width: 768px) and (max-width: 991px){
-    .container-detalle-audiovisual{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-
-/* ESCRITORIO */
-@media only screen and (min-width: 1200px) and (max-width: 1440px){
-    .container-detalle-audiovisual{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-
-/* ESCRITORIO GRANDE */
-@media only screen and (min-width: 1200px){
-    .container-detalle-audiovisual{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 100px;
-    } 
-}
-
-/* 4K */
-@media only screen and (min-width: 1441px) and (max-width: 2560px){
-    .container-detalle-audiovisual{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 100px;
+/*ESCRITORIO*/
+@media only screen and (min-width: 1024PX){
+    body {
+        padding-top: 6em; /* Ajusta el valor según la altura de tu encabezado */
     }
 }

@@ -1,168 +1,89 @@
-@import '../css/Fonts.css';
 
-/* CELULARES S */
-.container-footer{
-    background-color: #9484FF;
+.footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: row; 
-}
+    flex-direction: row;
+    height: 5em;
+    width: auto;
+    background-color: #9484FF;
 
-p{
-    font-family: 'Mont-Light', sans-serif;
-    text-align: center;
 }
 
 .social{
     display: flex;
-    text-decoration: none;
-}
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width:3em;
 
+}
 .social img{
+    max-width: 2em;
+    height: auto;
     display: flex;
-    height: 30px;
-    margin-left: 10px;
-}
-
-.copyright{
+    align-items: center;
+    justify-content: center;
     margin: 0px;
-    margin-left: 10px;
 }
 
-/* CELULARES M */
-@media only screen and (min-width: 375px) and (max-width: 424px){
-    .container-footer{
-        background-color: #9484FF;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row; 
-    }
-    
-    p{
-        font-family: 'Mont-Light', sans-serif;
-        text-align: center;
-    }
-    
-    .social{
-        display: flex;
-        text-decoration: none;
-    }
-    
-    .social img{
-        display: flex;
-        height: 40px;
-        margin-left: 10px;
-    }
-    
-    .copyright{
-        margin-left: 20px;
-    }
+.linkedin{
+    max-width: 1em;
+    height: auto;
+}
+.youtube{
+    max-width: 1em;
+    height: auto;
+}
+.instagram{
+    max-width: 1em;
+    height: auto;
 }
 
-/* CELULARES L */
-@media only screen and (min-width: 425px) and (max-width: 767px){
-    .container-footer{
-        background-color: #9484FF;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row; 
-    }
-    
-    p{
-        font-family: 'Mont-Light', sans-serif;
-        text-align: center;
-    }
-    
-    .social{
-        display: flex;
-        text-decoration: none;
-    }
-    
-    .social img{
-        display: flex;
-        height: 40px;
-        margin-left: 10px;
-    }
-    
-    .copyright{
-        margin-left: 20px;
-    }
-}
 
-/* TABLETS */
-@media only screen and (min-width: 768px) and (max-width: 991px){
-    p{
-        font-family: 'Mont-Light', sans-serif;
-        text-align: center;
-        font-size: x-large;
-    }
-    .social img {
-        height: 45px;
-    }
+.footer p{
+    font-size: 1.25em ;
+    margin: 0px;
+    margin-right: 5%;
+    margin-left: 35%;
+    height: auto;
+    max-width: 50%;
+    font-family: 'Mont-SemiBold';
+    color: #000000;
 }
 
 /* ESCRITORIO */
-@media only screen and (min-width: 992px) and (max-width: 1199px){
-    p{
-        font-family: 'Mont-Light', sans-serif;
-        text-align: center;
-        font-size: x-large;
-    }
-    .social img {
-        height: 45px;
-    }
-}
-/* ESCRITORIO GRANDE */
-@media only screen and (min-width: 1200px) and (max-width: 1440px){
-    p{
-        font-family: 'Mont-Light', sans-serif;
-        text-align: center;
-        font-size:xx-large
-    }
-    .social{
-        align-items: center;
-    }
-    .linkedin:hover{
-        height: 60px;
-    }
-    .instagram:hover{
-        height: 60px;
-    }
-    .youtube:hover{
-        height: 60px;
+@media only screen and (min-width: 1024PX){
+
+    .youtube{
+        padding-left: 0.3em;
     }
     .social img{
-        height: 60px;
-    }
-
-}
-
-/* 4K */
-@media only screen and (min-width: 1441px) and (max-width: 2560px){
-    p{
-        font-family: 'Mont-Light', sans-serif;
-        text-align: center;
-        font-size: x-large;
-    }
-    .social{
-        align-items: center;
+        max-width: 2.5em;
     }
     .linkedin:hover{
-        height: 60px;
-    }
-    .instagram:hover{
-        height: 60px;
+        transform: scale(1.2);
+        transition: width 0.5s, height 0.5s;
     }
     .youtube:hover{
-        height: 60px;
+        transform: scale(1.2);
+        transition: width 0.5s, height 0.5s;
     }
-    .copyright{
-        font-size: 70px;
+    .instagram:hover{
+        transform: scale(1.2);
+        transition: width 0.5s, height 0.5s;
     }
-    .social img {
-        height: 120px;
+    .linkedin{
+        max-width: 0.5em;
+        height: auto;
     }
+    .youtube{
+        max-width: 0.5em;
+        height: auto;
+    }
+    .instagram{
+        max-width: 0.5em;
+        height: auto;
+    }
+
 }

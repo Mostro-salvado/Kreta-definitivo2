@@ -4,7 +4,7 @@ import staff from '../dataStaff';
 
 export default function Somos() {
     const staffList = staff.map(persona => (
-        <SomosCard nombre={persona.nombre} descripcion={persona.descripcion} imagen={persona.imagen} />
+        <SomosCard key={persona.id} nombre={persona.nombre} descripcion={persona.descripcion} imagen={persona.imagen} />
     ));
 
     // Dividir la lista de bios en dos partes
@@ -14,17 +14,21 @@ export default function Somos() {
 
     return (
         <>
-            <div className="container-somos" id="Somos-Kreta">
-                <h1 className="titulo" lang="en">Somos Kreta</h1>
+            <div className="container-somos" >
+                <h1 className="titulo" id="Somos-Kreta" lang="en">Somos KRETA</h1>
                 <div className="container-bio">
                     <div className="bio">
                         {/* Renderizar la primera columna */}
-                        <div className="column">
-                            {firstColumn}
+                        <div className="column1">
+                            {firstColumn.map((element, index) => (
+                                <div key={index}>{element}</div>
+                            ))}
                         </div>
                         {/* Renderizar la segunda columna */}
-                        <div className="column">
-                            {secondColumn}
+                        <div className="column1">
+                            {secondColumn.map((element, index) => (
+                                <div key={index}>{element}</div>
+                            ))}
                         </div>
                     </div>
                 </div>

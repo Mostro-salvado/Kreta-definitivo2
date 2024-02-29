@@ -1,215 +1,42 @@
 @import '../css/Fonts.css';
 
-/* CELULARES S */
-
-.containerfo {
-    display: none;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #9484FF;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-}
-
-
 .fotografia {
-    padding: 20px;
-    font-family: 'Mont-Black', sans-serif;
+    text-align: center;
+    background-color: rgba(252, 176, 62, 0.65);
+    max-width: 100%;
+    margin: 0 auto; 
+    overflow: hidden;
+    margin-top: 1.5em;
+    color: white;
 }
 
 .fotografia h2 {
-    margin: 0 auto;  
-    text-align: center;
-    color: #FFFF;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 2.25em; 
+    white-space: nowrap; 
+    font-family: 'Mont-SemiBold';
+    color: white;
 }
 
-
-.containerfo {
-    transition: opacity 0.5s ease;
+.icono-fotografia{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    max-width: 20%;
 }
-
-
-.containerfo.visible {
-    display: flex; 
-    justify-content: center;
-}
-
 
 .blur-in-expand{animation:blur-in-expand 0.9s linear both} @keyframes blur-in-expand{0%{transform:scale(0);filter:blur(12px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
 
-/* CELULARES M */
-@media only screen and (min-width: 375px) and (max-width: 424px){
-    .containerfo {
-        display: none;
-        flex-direction: row;
-        justify-content: space-between;
-        background-color: #9484FF;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        border-radius: 15px;
+/*TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .icono-fotografia{
+        max-width: 12%;
     }
-    
-    
-    .fotografia {
-        padding: 20px;
-        font-family: 'Mont-Black', sans-serif;
-    }
-    
-    .fotografia h2 {
-        margin: 0 auto;  
-        text-align: center;
-        color: #FFFF;
-    }
-    
-    
-    .containerfo {
-        transition: opacity 0.5s ease;
-    }
-    
-    
-    .containerfo.visible {
-        display: flex; 
-        justify-content: center;
-    }
-    
-    
-    .blur-in-expand{animation:blur-in-expand 0.9s linear both} @keyframes blur-in-expand{0%{transform:scale(0);filter:blur(12px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
-    
-}
-
-/* CELULARES L */
-@media only screen and (min-width: 425px) and (max-width: 767px){
-    .containerfo {
-        display: none;
-        flex-direction: row;
-        justify-content: space-between;
-        background-color: #9484FF;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        border-radius: 15px;
-    }
-    
-    
-    .fotografia {
-        padding: 20px;
-        font-family: 'Mont-Black', sans-serif;
-    }
-    
-    .fotografia h2 {
-        margin: 0 auto;  
-        text-align: center;
-        color: #FFFF;
-    }
-    
-    
-    .containerfo {
-        transition: opacity 0.5s ease;
-    }
-    
-    
-    .containerfo.visible {
-        display: flex; 
-        justify-content: center;
-    }
-    
-    
-    .blur-in-expand{animation:blur-in-expand 0.9s linear both} @keyframes blur-in-expand{0%{transform:scale(0);filter:blur(12px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
-    
-}
-
-/* TABLETS */
-@media only screen and (min-width: 768px) and (max-width: 991px){
-    .containerfo {
-        display: none;
-        flex-direction: row;
-        justify-content: space-between;
-        background-color: #9484FF;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        border-radius: 15px;
-    }
-    
-    
-    .fotografia {
-        padding: 20px;
-        font-family: 'Mont-Black', sans-serif;
-    }
-    
-    .fotografia h2 {
-        margin: 0 auto;  
-        text-align: center;
-        color: #FFFF;
-    }
-    
-    
-    .containerfo {
-        transition: opacity 0.5s ease;
-    }
-    
-    
-    .containerfo.visible {
-        display: flex; 
-        justify-content: center;
-    }
-    
-    
-    .blur-in-expand{animation:blur-in-expand 0.9s linear both} @keyframes blur-in-expand{0%{transform:scale(0);filter:blur(12px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
-    
 }
 
 /* ESCRITORIO */
-@media only screen and (min-width: 992px) and (max-width: 1199px){
-
-    .wraper.containerfo {
-        width: 50%;
-        max-width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    .containerfo.visible {
-        display: flex; 
-        justify-content: center;
-    }
-    
-    .wraper.fotografia {
-        width: 100%;
-    }
-    .containerfo {
-        flex-direction: row;
-        justify-content: space-between;
-        background-color: #9484FF;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        border-radius: 15px;
-    }
-    .fotografia div {
-        margin: 6px;
-    }
-    .fotografia {
-        padding: 16px;
-        font-family: 'Mont-Black', sans-serif;
-    }
-
-} 
-/* ESCRITORIO GRANDE */
-@media only screen and (min-width: 1200px) and (max-width: 1440px){
-    .fotografia h2 {
-        margin: 0 auto;  
-        text-align: center;
-        color: #FFFF;
-        font-size: xx-large;
-    }
-}
-
-/* 4K */
-@media only screen and (min-width: 1441px) and (max-width: 2560px){
-    .fotografia h2 {
-        margin: 0 auto;  
-        text-align: center;
-        color: #FFFF;
-        font-size: 70px;
+@media only screen and (min-width: 1024PX){
+    .icono-fotografia{
+        max-width: 15%;
     }
 }

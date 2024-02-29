@@ -1,203 +1,41 @@
-@import '../css/Fonts.css';
-
-/* CELULARES S */
-.containerav {
-    display: none;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #9484FF;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-}
 
 .audiovisual {
-    padding: 20px;
-    font-family: 'Mont-Black', sans-serif;
+    text-align: center;
+    background-color: rgba(148, 132, 255, 0.65);
+    max-width: 100%;
+    margin: 0 auto; 
+    overflow: hidden;
+    margin-top: 1.5em;
+    color: white;
 }
 
 .audiovisual h2 {
-    margin: 0 auto; 
-    text-align: center;
-    color: #FFFF;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 2.25em; 
+    white-space: nowrap; 
+    font-family: 'Mont-SemiBold';
+    color: white;
 }
 
-
-.containerav {
-    transition: opacity 0.5s ease;
+.icono-audiovisual{
+    margin-top: 1em;
+    max-width: 20%;
+    margin-bottom: 1em;
 }
-
-
-.containerav.visible {
-    display: flex; 
-    justify-content: center;
-}
-
 
 .blur-in-expand{animation:blur-in-expand 0.9s linear both} @keyframes blur-in-expand{0%{transform:scale(0);filter:blur(12px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
 
-/* CELULARES M */
-@media only screen and (min-width: 375px) and (max-width: 424px){
-    .containerav {
-        display: none;
-        flex-direction: row;
-        justify-content: space-between;
-        background-color: #9484FF;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        border-radius: 15px;
+/*TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .icono-audiovisual{
+        max-width: 15%;
     }
-    
-    .audiovisual {
-        padding: 20px;
-        font-family: 'Mont-Black', sans-serif;
-    }
-    
-    .audiovisual h2 {
-        margin: 0 auto; 
-        text-align: center;
-        color: #FFFF;
-    }
-    
-    
-    .containerav {
-        transition: opacity 0.5s ease;
-    }
-    
-    
-    .containerav.visible {
-        display: flex; 
-        justify-content: center;
-    }
-    
-    
-    .blur-in-expand{animation:blur-in-expand 0.9s linear both} @keyframes blur-in-expand{0%{transform:scale(0);filter:blur(12px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
-    
 }
-
-/* CELULARES L */
-@media only screen and (min-width: 425px) and (max-width: 767px){
-    .containerav {
-        display: none;
-        flex-direction: row;
-        justify-content: space-between;
-        background-color: #9484FF;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        border-radius: 15px;
-    }
-    
-    .audiovisual {
-        padding: 20px;
-        font-family: 'Mont-Black', sans-serif;
-    }
-    
-    .audiovisual h2 {
-        margin: 0 auto; 
-        text-align: center;
-        color: #FFFF;
-    }
-    
-    
-    .containerav {
-        transition: opacity 0.5s ease;
-    }
-    
-    
-    .containerav.visible {
-        display: flex; 
-        justify-content: center;
-    }
-    
-    
-    .blur-in-expand{animation:blur-in-expand 0.9s linear both} @keyframes blur-in-expand{0%{transform:scale(0);filter:blur(12px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
-    
-}
-
-/* TABLETS */
-@media only screen and (min-width: 768px) and (max-width: 991px){
-    .containerav {
-        display: none;
-        flex-direction: row;
-        justify-content: space-between;
-        background-color: #9484FF;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        border-radius: 15px;
-    }
-    
-    .audiovisual {
-        padding: 20px;
-        font-family: 'Mont-Black', sans-serif;
-    }
-    
-    .audiovisual h2 {
-        margin: 0 auto; 
-        text-align: center;
-        color: #FFFF;
-    }
-    
-    
-    .containerav {
-        transition: opacity 0.5s ease;
-    }
-    
-    
-    .containerav.visible {
-        display: flex; 
-        justify-content: center;
-    }
-    
-    
-    .blur-in-expand{animation:blur-in-expand 0.9s linear both} @keyframes blur-in-expand{0%{transform:scale(0);filter:blur(12px);opacity:0}100%{transform:scale(1);filter:blur(0);opacity:1}}
-    
-}
-
 
 /* ESCRITORIO */
-@media only screen and (min-width: 992px) and (max-width: 1199px){
-
-    .wraper.containerav {
-        width: 50%;
-        max-width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    .containerav.visible {
-        display: flex; 
-        justify-content: center;
-    }
-    
-    .wraper.audiovisual {
-        width: 100%;
-    }
-    .containerav {
-        margin-top: 10px;
-    }
-    .audiovisual {
-        padding: 7px;
-        font-family: 'Mont-Black', sans-serif;
-    }
-
-} 
-/* ESCRITORIO GRANDE */
-@media only screen and (min-width: 1200px) and (max-width: 1440px){
-    .audiovisual h2 {
-        margin: 0 auto; 
-        text-align: center;
-        color: #FFFF;
-        font-size: xx-large;
-    }
-}
-
-/* 4K */
-@media only screen and (min-width: 1441px) and (max-width: 2560px){
-    .audiovisual h2 {
-        margin: 0 auto; 
-        text-align: center;
-        color: #FFFF;
-        font-size: 70px;
+@media only screen and (min-width: 1024PX){
+    .icono-audiovisual{
+        max-width: 17%;
     }
 }

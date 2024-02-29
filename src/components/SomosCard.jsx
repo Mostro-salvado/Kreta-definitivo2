@@ -18,8 +18,6 @@ export default function SomosCard({nombre,descripcion,imagen}) {
                     <div className="nombre">
                         {nombre}
                     </div>
-                </div>
-                <div>
                     {show ? <div className="descripcion">{descripcion}</div> : ""}
                 </div>
             </div>

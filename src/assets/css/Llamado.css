@@ -1,209 +1,62 @@
 @import '../css/Fonts.css';
 
-/* CELULARES S */
-
 .container-llamado{
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    background-color: #69A3D4;
+    justify-content: center;
     align-items: center;
+    max-width: 100%;
+    background-color: rgba(105, 163, 212, 0.65);
+    padding-bottom: 1em;
 }
-.container-llamado p{
-    font-family: 'Mont-Light', sans-serif;
-    color: #FFFF;
-    margin: 20px;
-    margin-top: 50px;
+.texto-llamado{
+    text-align: center;
+    max-width: 100%;
+    margin: 2em;
+    font-family: 'Mont-SemiBold';
+    color: #FFFFFF;
+    font-size: 1.1em;
 }
-
 .Link-Contactanos{
     text-decoration: none;
-    background-color: #663287;
-    color: #FFFF;
-    font-family: 'Mont-Black', sans-serif;
-    margin: 20px;
-    border-radius: 15px;
-    width: 150px;
+    color: #FFFFFF;
+    width: 8em;
     text-align: center;
+    padding: 0.3em;
+    font-family: 'Mont-Heavy';
+    font-size: 1em;
+    height: 2em;
+    margin-bottom: 1em;
 }
 
-/* CELULARES M */
-@media only screen and (min-width: 375px) and (max-width: 424px){
-    .container-llamado{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        background-color: #69A3D4;
-        align-items: center;
-    }
-    .container-llamado p{
-        font-family: 'Mont-Light', sans-serif;
-        color: #FFFF;
-        margin: 20px;
-        margin-top: 50px;
-    }
-    
-    .Link-Contactanos{
-        text-decoration: none;
-        background-color: #663287;
-        color: #FFFF;
-        font-family: 'Mont-Black', sans-serif;
-        margin: 20px;
-        border-radius: 15px;
-        width: 150px;
-        text-align: center;
-    }
+.icono-contacto{
+    max-width: 30%;
+    padding-bottom: 1em;
 }
 
-/* CELULARES L */
-@media only screen and (min-width: 425px) and (max-width: 767px){
-    .container-llamado{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        background-color: #69A3D4;
-        align-items: center;
-    }
-    .container-llamado p{
-        font-family: 'Mont-Light', sans-serif;
-        color: #FFFF;
-        margin: 20px;
-        margin-top: 50px;
-    }
-    
+/*TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
     .Link-Contactanos{
-        text-decoration: none;
-        background-color: #663287;
-        color: #FFFF;
-        font-family: 'Mont-Black', sans-serif;
-        margin: 20px;
-        border-radius: 15px;
-        width: 150px;
-        text-align: center;
+        margin-bottom: 3em;
     }
-}
-
-/* TABLETS */
-@media only screen and (min-width: 768px) and (max-width: 991px){
-
-    .container-llamado{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        background-color: #69A3D4;
-        align-items: center;
-        margin-bottom: 40px;
-    }
-
-    .Link-Contactanos{
-        text-decoration: none;
-        background-color: #663287;
-        color: #FFFF;
-        font-family: 'Mont-Black', sans-serif;
-        margin: 20px;
-        border-radius: 15px;
-        width: 197px;
-        height: 40px;
-        text-align: center;
-        font-size: x-large;
+    .icono-contacto{
+        max-width: 50%;
     }
 }
 
 /* ESCRITORIO */
-@media only screen and (min-width: 992px) and (max-width: 1199px){
-
-    .container-llamado p {
-        font-family: 'Mont-Light', sans-serif;
-        color: #FFFF;
-        margin: 20px;
-        margin-right: 68px;
-        margin-left: 68px;
-        margin-top: 50px;
-        font-size: x-large;
+@media only screen and (min-width: 1024PX){
+    .texto-llamado{
+        font-size: 1.5em;
     }
     .Link-Contactanos{
-        text-decoration: none;
-        background-color: #663287;
-        color: #FFFF;
-        font-family: 'Mont-Black', sans-serif;
-        margin: 20px;
-        margin-bottom: 50px;
-        border-radius: 15px;
-        width: 300px;
-        height: 40px;
-        text-align: center;
-        font-size: xx-large;
+        margin-bottom: 4em;
     }
-}
-/* ESCRITORIO GRANDE */
-@media only screen and (min-width: 1200px) and (max-width: 1440px){
-    .container-llamado p {
-        font-family: 'Mont-Light', sans-serif;
-        color: #FFFF;
-        margin: 20px;
-        margin-right: 220px;
-        margin-left: 220px;
-        margin-top: 30px;
-        font-size: xx-large;
+    .icono-contacto{
+        max-width: 60%;
     }
-    .Link-Contactanos {
-        text-decoration: none;
-        background-color: #663287;
-        color: #FFFF;
-        font-family: 'Mont-Black', sans-serif;
-        margin: 20px;
-        margin-bottom: 50px;
-        border-radius: 15px;
-        width: 250px;
-        height: 40px;
-        text-align: center;
-        font-size: x-large;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .Link-Contactanos:hover{
-        background-color: #4b2166;
-        width: 280px;
-        height: 50px;
-        font-size: xx-large;
-        transition: 300ms;
-    }
-
-}
-
-/* 4K */
-@media only screen and (min-width: 1441px) and (max-width: 2560px){
-    .container-llamado p {
-        font-family: 'Mont-Light', sans-serif;
-        color: #FFFF;
-        margin: 20px;
-        margin-right: 220px;
-        margin-left: 220px;
-        margin-top: 50px;
-        font-size: 50px;
-    }
-    .Link-Contactanos {
-        text-decoration: none;
-        background-color: #663287;
-        color: #FFFF;
-        font-family: 'Mont-Black', sans-serif;
-        margin: 20px;
-        margin-bottom: 50px;
-        border-radius: 15px;
-        width: 388px;
-        height: 64px;
-        text-align: center;
-        font-size: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .Link-Contactanos:hover{
-        background-color: #4b2166;
-        width: 280px;
-        height: 50px;
-        font-size: xx-large;
-        transition: 300ms;
+    .icono-contacto:hover{
+        transform: scale(1.2);
+        transition: width 0.5s, height 0.5s;
     }
 }

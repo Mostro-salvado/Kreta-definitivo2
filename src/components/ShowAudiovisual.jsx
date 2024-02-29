@@ -1,15 +1,27 @@
-import { Link } from "react-router-dom";
 import "../assets/css/ShowAudiovisual.css"
+import icono_audiovisual from '../assets/statics/filmar-con-una-videocamara.png'
+import { useNavigate } from "react-router-dom";
 
 
 export default function ShowAudiovisual() {
+    const Navigate = useNavigate();
+
+    const redirectToAudiovisual = () => {
+        Navigate("/audiovisual");
+        setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        }, 100);
+    };
+
     return (
         <>
-            <div className="oculto">
+            <div className="ocultoA">
             <p className="texto">
-                Spots, campañas, coberturas, publicidades y videos institucionales.<br />En Kreta contamos con un equipo audiovisual completo para suplir las necesidades de tu empresa, tu negocio o tu cliente.<br /> ¡Mirá nuestro portfolio!
+                Spots, campañas, coberturas, publicidades y videos institucionales.<br />En KRETA contamos con un equipo audiovisual completo para suplir las necesidades de tu empresa, tu negocio o tu cliente.<br /> ¡Mirá nuestro portfolio!
             </p>
-                <Link className="vermas" to="/audiovisual">Ver +</Link>
+                <span className="vermas" onClick={redirectToAudiovisual}>
+                <img src={icono_audiovisual} alt="Audiovisual" className="icono-audiovisual"/>
+                </span>
             </div>
         </>
     )

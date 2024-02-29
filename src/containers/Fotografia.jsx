@@ -5,7 +5,7 @@ import DataFotografia from "../DataFotografia"
 export default function Fotografia() {
 
     const dataFotografiaList= DataFotografia.map(data => {
-        return <DetalleFotografia titulo={data.titulo} fotografia={data.fotografia} texto={data.texto}/>
+        return <DetalleFotografia key={data.titulo} titulo={data.titulo} fotografia={data.fotografia} texto={data.texto}/>
     })
 
     return (

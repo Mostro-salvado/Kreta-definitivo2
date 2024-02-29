@@ -12,7 +12,7 @@ export default function AudiovisualHome() {
       const threshold = 180;
       setIsVisible(scrollY > threshold);
     };
-
+ 
     const handleResize = () => {
       const screenWidth = window.innerWidth;
       if (screenWidth > 992) {
@@ -42,7 +42,7 @@ export default function AudiovisualHome() {
       <div className={`containerav ${isVisible ? 'visible blur-in-expand' : ''}`} onClick={handleClick}>
         <div className="audiovisual">
           <h2>Audiovisual</h2>
-          <div>{show && <ShowAudiovisual></ShowAudiovisual>}</div>
+          <div className='texto-audiovisual'>{show && <ShowAudiovisual></ShowAudiovisual>}</div>
         </div>
       </div>
     </>

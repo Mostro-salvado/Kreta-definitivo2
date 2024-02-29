@@ -1,115 +1,36 @@
-
-/* CELULARES S */
-
-.video-container {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    margin-top: 45px;
+*{
+    box-sizing: border-box;
+    margin: 0px;
 }
 
-.video-container video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+body {
+    padding-top: 8em; /* Ajusta el valor según la altura de tu encabezado */
 }
 
-/* CELULARES M */
-@media only screen and (min-width: 375px) and (max-width: 424px){
-    .video-container {
-        width: 100%;
-        height: 100vh;
-        overflow: hidden;
-        position: relative;
-        margin: 0;
-        padding: 0;
-        margin-top: 45px;
-    }
-    
-    .video-container video {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+span{font-size: 1em;}
+ul{list-style: none;}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    body {
+        padding-top: 0; /* Ajusta el valor según la altura de tu encabezado */
     }
 }
 
-/* CELULARES L */
-@media only screen and (min-width: 425px) and (max-width: 767px){
-    .video-container {
-        width: 100%;
-        height: 100vh;
-        overflow: hidden;
-        position: relative;
-        margin: 0;
-        padding: 0;
-        margin-top: 45px;
-    }
-    
-    .video-container video {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-}
 
-/* TABLETS */
-@media only screen and (min-width: 768px) and (max-width: 991px){
-
-    .video-container {
-        width: 100%;
-        height: 81vh;
-        overflow: hidden;
-        position: relative;
-        margin-top: 50px;
-    }
-    
-}
-
-/* ESCRITORIO */
-@media only screen and (min-width: 992px) and (max-width: 1199px){
-
-    .wraper{
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-        height: 100vh;
-        align-items: center;
-        margin-top: 0px;
-    }
-    .fotografia-home{
-        height: 50%;
-        width: 100% !important;
-        margin: 10px;
-    }
-    .audiovisual-home{
-        height: 40%;
-        width: 100% !important;
-        margin: 10px;
-    }
-}
-
-/* ESCRITORIO GRANDE */
-@media only screen and (min-width: 1200px) and (max-width: 1440px){
-    .video-container {
-        width: 100%;
-        height: 90vh;
-        overflow: visible;
-        position: relative;
-        display: flex;
-        align-items: flex-end;
-        margin-top: 0px;
-    }
-}
-
-/* 4K */
-@media only screen and (min-width: 1441px) and (max-width: 2560px){
-    .video-container {
-        width: 100%;
-        height: 90vh;
-        overflow: visible;
-        position: relative;
+/*ESCRITORIO*/
+@media only screen and (min-width: 1024PX){
+    body {
+        padding-top: 0; /* Ajusta el valor según la altura de tu encabezado */
     }
 }

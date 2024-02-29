@@ -33,16 +33,17 @@ export default function Header() {
         setTimeout(() => {
             const somosElement = document.getElementById("Somos-Kreta");
             if (somosElement) {
-                somosElement.scrollIntoView({ behavior: "smooth" });
+                const yOffset = somosElement.getBoundingClientRect().top - 150;
+                window.scrollTo({ top: yOffset, behavior: "smooth" });
             }
-            }, 100);
-        };
+        }, 100);
+    };
+    
 
 
     return (
         <>
             <div className="header">
-                <div className="container">
                 <img
                     src={Logo}
                     alt="Logo Kreta"
@@ -53,9 +54,8 @@ export default function Header() {
                         <span className="nav-link" onClick={redirectToHome} lang="en">Home</span>
                         <span className="nav-link" onClick={redirectToAudiovisual}>Audiovisual</span>
                         <span className="nav-link" onClick={redirectToFotografia}>Fotografía</span>
-                        <span className="nav-link" onClick={redirectToSomos} lang="en">Somos Kreta</span>
+                        <span className="nav-link" onClick={redirectToSomos} lang="en">Somos KRETA</span>
                     </nav>
-                </div>
             </div>
         </>
     )

@@ -1,5 +1,6 @@
 import "../assets/css/Formulario.css"
 import React, { useRef, useState } from 'react';
+import icono_enviar from '../assets/statics/enviar.png'
 import emailjs from '@emailjs/browser';
 
 export default function Formulario() {
@@ -13,10 +14,7 @@ export default function Formulario() {
             .then((result) => {
                 console.log(result.text);
                 setEnviadoConExito(true);
-                form.current.reset(); // Otra opción si reset() no funciona
-                // form.current.user_name.value = '';
-                // form.current.user_email.value = '';
-                // form.current.message.value = '';
+                form.current.reset(); 
             }, (error) => {
                 console.log(error.text);
                 setEnviadoConExito(false);
@@ -32,10 +30,12 @@ export default function Formulario() {
                     <label>Nombre</label>
                     <input className="entrada" type="text" name="user_name" placeholder="Ingresa tu nombre" />
                     <label>Correo</label>
-                    <input className="entrada" type="email" name="user_email" placeholder="Ingresa tu correo electrónico"/>
+                    <input className="entrada" type="email" name="user_email" placeholder="Correo electrónico"/>
                     <label>Mensaje</label>
                     <textarea className="textarea" name="message" placeholder="Escribe tu mensaje aquí" />
-                    <input className="submit" type="submit" value="Enviar" />
+                    <button type="submit">
+                        <img src={icono_enviar} alt="Enviar" className="icono-enviar"/>
+                    </button>
                 </form>
             </div>
         </>

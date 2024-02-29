@@ -3,7 +3,7 @@ import "../assets/css/video.css"
 
 export default function Video({ videoId }) {
     return (
-        <div className="video-container">
+    <div className="video-container">
         <iframe
             title="video"
             width="100%"

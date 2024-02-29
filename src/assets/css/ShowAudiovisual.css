@@ -1,173 +1,51 @@
-/* CELULARES S */
-
-.oculto{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
+.ocultoA {
+    max-width: 90%;
+    margin: 1em auto; 
+    overflow: overlay;
+    padding-bottom: 3em;
 }
 
-
-.texto{
-    font-family: 'Mont-Light', sans-serif;
+.texto {
+    margin: 1em;
+    text-align: center;
+    font-family: 'Mont-SemiBold';
+    font-size: 1.1em;
 }
 
-.vermas{
+.vermas {
     text-decoration: none;
-    background-color: #69A3D4;
-    font-size: 20px;
     color: #FFFFFF;
-    box-shadow: none;
-    text-shadow: none;
-    font-family: 'Mont-Black', sans-serif;
-    height: 50px;
-    width: 100px;
+    width: 1.5em;
+    text-align: center;
+    padding: 0.3em;
+    border-radius: 15px;
+    margin-bottom: 1.5em;
+    font-size: 1.5em;
+    font-family: 'Mont-SemiBold';
 }
 
-.vermas:hover{
-    background-color: #663287;
-} 
-
-/* CELULARES M */
-@media only screen and (min-width: 375px) and (max-width: 424px){
-    .oculto{
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    
-    .texto{
-        font-family: 'Mont-Light', sans-serif;
-    }
-    
-    .vermas{
-        text-decoration: none;
-        background-color: #69A3D4;
-        font-size: 20px;
-        color: #FFFFFF;
-        box-shadow: none;
-        text-shadow: none;
-        font-family: 'Mont-Black', sans-serif;
-        height: 50px;
-        width: 100px;
-    }
-    
-    .vermas:hover{
-        background-color: #663287;
-    } 
-    
+.icono-audiovisual{
+    max-width: 20%;
 }
 
-/* CELULARES L */
-@media only screen and (min-width: 425px) and (max-width: 767px){
-    .oculto{
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    
-    .texto{
-        font-family: 'Mont-Light', sans-serif;
-    }
-    
-    .vermas{
-        text-decoration: none;
-        background-color: #69A3D4;
-        font-size: 20px;
-        color: #FFFFFF;
-        box-shadow: none;
-        text-shadow: none;
-        font-family: 'Mont-Black', sans-serif;
-        height: 50px;
-        width: 100px;
-    }
-    
-    .vermas:hover{
-        background-color: #663287;
-    } 
-    
-}
-
-/* TABLETS */
-@media only screen and (min-width: 768px) and (max-width: 991px){
-    .oculto{
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    
-    .texto{
-        font-family: 'Mont-Light', sans-serif;
-    }
-    
-    .vermas{
-        text-decoration: none;
-        background-color: #69A3D4;
-        font-size: 20px;
-        color: #FFFFFF;
-        box-shadow: none;
-        text-shadow: none;
-        font-family: 'Mont-Black', sans-serif;
-        height: 50px;
-        width: 100px;
-    }
-    
-    .vermas:hover{
-        background-color: #663287;
-    } 
-    
-}
-
-/* ESCRITORIO */
-@media only screen and (min-width: 992px) and (max-width: 1199px){
-    .oculto{
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    
-    .texto{
-        font-family: 'Mont-Light', sans-serif;
-    }
-    
-    .vermas{
-        text-decoration: none;
-        background-color: #69A3D4;
-        font-size: 20px;
-        color: #FFFFFF;
-        box-shadow: none;
-        text-shadow: none;
-        font-family: 'Mont-Black', sans-serif;
-        height: 50px;
-        width: 100px;
-    }
-    
-    .vermas:hover{
-        background-color: #663287;
-    } 
-    
-}
-
-/* ESCRITORIO GRANDE */
-@media only screen and (min-width: 1200px) and (max-width: 1440px){
-    .texto{
-        font-size:xx-large;
-        margin-bottom: 20px;
+/*TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .icono-audiovisual{
+        max-width: 15%;
     }
 }
 
-/* 4K */
-@media only screen and (min-width: 1441px) and (max-width: 2560px){
-    .texto{
-        font-size:xx-large;
-        margin-bottom: 20px;
+
+/*ESCRITORIO*/
+@media only screen and (min-width: 1024PX){
+    .texto {
+        font-size: 1.5em;
+    }
+    .icono-audiovisual{
+        max-width: 10%;
+    }
+    .icono-audiovisual:hover{
+        transform: scale(1.2);
+        transition: width 0.5s, height 0.5s;
     }
 }
