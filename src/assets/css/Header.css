@@ -33,13 +33,13 @@
     font-size: 0.75em;
 }
 .header span:first-child{
-    margin-bottom: 0.4em;
+    margin-bottom: 0.2em;
 }
 .header span:nth-child(2){
-    margin-bottom: 0.4em;
+    margin-bottom: 0.2em;
 }
 .header span:nth-child(3){
-    margin-bottom: 0.4em;
+    margin-bottom: 0.2em;
 }
 .header span:last-child{
     padding-bottom: 1.3em;
