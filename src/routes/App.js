@@ -14,7 +14,7 @@ function bloquearGoogleTranslate() {
 }
 
 function bloquearMenuContextual(e) {
-  //e.preventDefault(); // Evita que el menú contextual se abra
+  e.preventDefault(); // Evita que el menú contextual se abra
 }
 
 function App() {
